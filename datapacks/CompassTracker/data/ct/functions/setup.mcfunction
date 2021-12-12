@@ -28,7 +28,7 @@ execute as @a unless score @s ct.target.z matches -2147483648..2147483647 run sc
 scoreboard players set -1 ct.const -1
 scoreboard players set 10 ct.const 10
 
-tellraw @a[gamemode=creative] {"text":"\u00a7e提示> \u00a76簡易羅盤追蹤 \u00a7f已被遊戲載入 \u00a7a(版本：1.1)"}
+tellraw @a[gamemode=creative] "\u00a7b提示> \u00a76簡易羅盤追蹤\u00a7e加載完畢"
 
 function ct:reset_timer
 
