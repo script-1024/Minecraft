@@ -1,0 +1,6 @@
+{
+	"parent": "block/template/slab/bottom",
+	"textures": {
+		"all": "block/wooden/planks/acacia"
+	}
+}

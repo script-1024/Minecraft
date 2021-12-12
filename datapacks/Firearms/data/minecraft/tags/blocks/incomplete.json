@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:lever",
+        "#minecraft:air",
+        "#minecraft:beds",
+        "#minecraft:buttons",
+        "#minecraft:doors",
+        "#minecraft:fence_gates",
+        "#minecraft:fire",
+        "#minecraft:flowers",
+        "#minecraft:flower_pots",
+        "#minecraft:pressure_plates",
+        "#minecraft:signs",
+        "#minecraft:slabs",
+        "#minecraft:torchs",
+        "#minecraft:trapdoors"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "extended=false,facing=down": { "model": "block/piston/default_sticky", "x": 90 },
+        "extended=false,facing=up": { "model": "block/piston/default_sticky", "x": 270 },
+        "extended=false,facing=north": { "model": "block/piston/default_sticky" },
+        "extended=false,facing=south": { "model": "block/piston/default_sticky", "y": 180 },
+        "extended=false,facing=west": { "model": "block/piston/default_sticky", "y": 270 },
+        "extended=false,facing=east": { "model": "block/piston/default_sticky", "y": 90 },
+        "extended=true,facing=down": { "model": "block/piston/base_sticky", "x": 90 },
+        "extended=true,facing=up": { "model": "block/piston/base_sticky", "x": 270 },
+        "extended=true,facing=north": { "model": "block/piston/base_sticky" },
+        "extended=true,facing=south": { "model": "block/piston/base_sticky", "y": 180 },
+        "extended=true,facing=west": { "model": "block/piston/base_sticky", "y": 270 },
+        "extended=true,facing=east": { "model": "block/piston/base_sticky", "y": 90 }
+    }
+}

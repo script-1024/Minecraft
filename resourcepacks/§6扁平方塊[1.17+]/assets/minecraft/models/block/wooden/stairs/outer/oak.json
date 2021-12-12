@@ -1,0 +1,9 @@
+{
+	"parent": "block/template/stairs/outer",
+	"textures": {
+		"all": "block/wooden/planks/oak",
+		"top": "#all",
+		"side": "#all",
+		"bottom": "#all"
+	}
+}

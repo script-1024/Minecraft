@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/wooden/slab/bottom/acacia"
+    },
+    "type=double": {
+      "model": "minecraft:block/wooden/planks/acacia"
+    },
+    "type=top": {
+      "model": "minecraft:block/wooden/slab/top/acacia"
+    }
+  }
+}

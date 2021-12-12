@@ -1,0 +1,9 @@
+{
+	"parent": "block/template/stairs/default",
+	"textures": {
+		"all": "block/wooden/planks/acacia",
+		"top": "#all",
+		"side": "#all",
+		"bottom": "#all"
+	}
+}

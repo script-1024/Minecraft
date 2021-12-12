@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/wooden/slab/bottom/oak"
+    },
+    "type=double": {
+      "model": "minecraft:block/wooden/planks/oak"
+    },
+    "type=top": {
+      "model": "minecraft:block/wooden/slab/top/oak"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template/cube/up_and_down",
+  "textures": {
+	"up": "block/piston/top",
+	"side": "block/piston/side",
+	"down": "block/piston/bottom"
+  }
+}

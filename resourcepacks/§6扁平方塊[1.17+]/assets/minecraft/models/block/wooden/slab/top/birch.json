@@ -1,0 +1,6 @@
+{
+	"parent": "block/template/slab/top",
+	"textures": {
+		"all": "block/wooden/planks/birch"
+	}
+}
