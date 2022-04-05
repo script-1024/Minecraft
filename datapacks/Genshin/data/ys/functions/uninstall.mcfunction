@@ -1,11 +1,13 @@
 scoreboard objectives remove ys.role
 scoreboard objectives remove info
-scoreboard objectives remove ys.useMap
+scoreboard objectives remove set
+#scoreboard objectives remove ys.useMap
 scoreboard objectives remove ys.skillCd
 scoreboard objectives remove ys.burstCd
 scoreboard objectives remove ys.efc
 scoreboard objectives remove ys.health
 scoreboard objectives remove ys.slot
+scoreboard objectives remove ys.set
 
 tag @a remove noMap
 tag @a remove noSkill
