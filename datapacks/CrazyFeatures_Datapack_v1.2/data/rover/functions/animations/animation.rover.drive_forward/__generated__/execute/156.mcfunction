@@ -1,0 +1,11 @@
+execute if score #this.aj.anim aj.i matches 10 as @e[type=armor_stand,tag=aj.rover.wheel1,distance=..5.3] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [-2.88f,0f,180f]
+execute if score #this.aj.anim aj.i matches 11 as @e[type=armor_stand,tag=aj.rover.wheel1,distance=..5.3] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [14.76f,0f,-180f]
+execute if score #this.aj.anim aj.i matches 12 as @e[type=armor_stand,tag=aj.rover.wheel1,distance=..5.3] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [36.36f,0f,180f]
+execute if score #this.aj.anim aj.i matches 13 as @e[type=armor_stand,tag=aj.rover.wheel1,distance=..5.3] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [54.36f,0f,-180f]
+execute if score #this.aj.anim aj.i matches 14 as @e[type=armor_stand,tag=aj.rover.wheel1,distance=..5.3] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [72.72f,0f,180f]
+execute if score #this.aj.anim aj.i matches 15 as @e[type=armor_stand,tag=aj.rover.wheel1,distance=..5.3] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [90.72f,0f,180f]
+execute if score #this.aj.anim aj.i matches 16 as @e[type=armor_stand,tag=aj.rover.wheel1,distance=..5.3] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [108.36f,0f,-180f]
+execute if score #this.aj.anim aj.i matches 17 as @e[type=armor_stand,tag=aj.rover.wheel1,distance=..5.3] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [126.36f,0f,-180f]
+execute if score #this.aj.anim aj.i matches 18 as @e[type=armor_stand,tag=aj.rover.wheel1,distance=..5.3] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [144.72f,0f,180f]
+execute if score #this.aj.anim aj.i matches 19 as @e[type=armor_stand,tag=aj.rover.wheel1,distance=..5.3] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [162.36f,0f,-180f]
+execute if score #this.aj.anim aj.i matches 10..19 run tp @s ^0.938 ^-1.543 ^-1.062 ~ ~

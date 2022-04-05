@@ -1,0 +1,2 @@
+execute if score #this.aj.anim aj.i matches 0..15 run function demon:animations/animation.demon.idle/__generated__/execute/1243
+execute if score #this.aj.anim aj.i matches 16..30 run function demon:animations/animation.demon.idle/__generated__/execute/1275

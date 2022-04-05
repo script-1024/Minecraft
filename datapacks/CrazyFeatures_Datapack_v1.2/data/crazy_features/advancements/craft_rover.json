@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "crazy_features:rover"
+      }
+    }
+  },
+  "rewards": {
+    "function": "crazy_features:rover/craft_rover"
+  }
+}

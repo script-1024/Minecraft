@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "crazy_features:beyblade5"
+      }
+    }
+  },
+  "rewards": {
+    "function": "crazy_features:beyblade/craft5"
+  }
+}

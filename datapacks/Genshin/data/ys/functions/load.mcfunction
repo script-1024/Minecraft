@@ -12,9 +12,18 @@ execute as @a unless score @s ys.role matches 0..799 run scoreboard players set 
 
 scoreboard objectives add info trigger
 
-#scoreboard objectives add ys.useMap minecraft.used:minecraft.map
+scoreboard objectives add ys.useMap minecraft.used:minecraft.map
+
+scoreboard objectives add ys.skillCd dummy
+scoreboard objectives add ys.burstCd dummy
+scoreboard objectives add ys.efc dummy
+
+scoreboard objectives add ys.health dummy
+
+scoreboard objectives add ys.slot dummy
 
 function ys:timer
 
+execute unless score #kazuha_skill_0 ys.efc matches 1.. run scoreboard players set #kazuha_skill_0 ys.efc 20
+
 tellraw @a[gamemode=creative] "\u00a7b提示> \u00a76原神資料包\u00a7e讀取完畢"
-tellraw @a[gamemode=creative] "\u00a7b提示> \u00a7e當前處於 \u00a7c原初測試 \u00a7e階段"

@@ -1,0 +1,3 @@
+execute unless entity @s[tag=aj.rover.root_entity] run tellraw @a ["",[{"text":"[","color":"dark_gray"},{"text":"MCB-MODEL","color":"green"},{"text":" -> ","color":"light_purple"},{"text":"ROOT_EXECUTION_ERROR","color":"red"},{"text":"]","color":"dark_gray"}],"\n",{"text":"rover:hide_model","color":"gold"}," ",{"text":"executed as non root entity.","color":"gray"},"\n",{"text":"Should be executed as ","color":"gray"},["",{"text":"model.","color":"gray"},{"text":"rover","color":"blue"},{"text":".root_entity","color":"gray"}]]
+scoreboard players operation #this.aj.id aj.i = @s aj.id
+execute at @s as @e[type=armor_stand,tag=aj.rover,distance=..8.39] if score @s aj.id = #this.aj.id aj.i run data remove entity @s ArmorItems[-1]

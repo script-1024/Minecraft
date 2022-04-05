@@ -1,0 +1,13 @@
+{
+    "parent": "item/template_spawn_egg",
+    "overrides": [
+        {"predicate": {"custom_model_data": 1},"model": "item/tnt/tnt_item"},
+        {"predicate": {"custom_model_data": 2},"model": "item/piston/piston_item"},
+        {"predicate": {"custom_model_data": 3},"model": "item/piston/sticky_piston_item"},
+        {"predicate": {"custom_model_data": 4},"model": "item/blue_shell"},
+        {"predicate": {"custom_model_data": 5},"model": "item/traffic_light/traffic_light_item"},
+        {"predicate": {"custom_model_data": 6},"model": "item/rover_item"},
+        {"predicate": {"custom_model_data": 7},"model": "item/blaze_spawn_egg"}
+
+    ]
+}

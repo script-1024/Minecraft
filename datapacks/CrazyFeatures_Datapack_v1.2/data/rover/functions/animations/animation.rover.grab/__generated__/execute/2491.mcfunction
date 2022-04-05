@@ -1,0 +1,7 @@
+execute if score #this.aj.anim aj.i matches 33 as @e[type=armor_stand,tag=aj.rover.arm_1,distance=..8.39] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [9.478f,0f,0f]
+execute if score #this.aj.anim aj.i matches 34 as @e[type=armor_stand,tag=aj.rover.arm_1,distance=..8.39] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [9.715f,0f,0f]
+execute if score #this.aj.anim aj.i matches 35 as @e[type=armor_stand,tag=aj.rover.arm_1,distance=..8.39] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [9.953f,0f,0f]
+execute if score #this.aj.anim aj.i matches 36 as @e[type=armor_stand,tag=aj.rover.arm_1,distance=..8.39] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [10.19f,0f,0f]
+execute if score #this.aj.anim aj.i matches 37 as @e[type=armor_stand,tag=aj.rover.arm_1,distance=..8.39] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [10.423f,0f,0f]
+execute if score #this.aj.anim aj.i matches 38 as @e[type=armor_stand,tag=aj.rover.arm_1,distance=..8.39] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [10.664f,0f,0f]
+execute if score #this.aj.anim aj.i matches 33..38 run tp @s ^0 ^-0.48 ^-0.563 ~ ~

@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=aj.demon.root_entity] run function demon:__generated__/execute/141
