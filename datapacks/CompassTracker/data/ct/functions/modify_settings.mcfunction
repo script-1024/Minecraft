@@ -1,5 +1,4 @@
-scoreboard players reset @s ct.trigger
-scoreboard players enable @s ct.trigger
+scoreboard players set @s ct.trigger 0
 
 execute store result score feedback ct.test run gamerule sendCommandFeedback
 execute if score feedback ct.test matches 1 run scoreboard players set feedback ct.plan 1

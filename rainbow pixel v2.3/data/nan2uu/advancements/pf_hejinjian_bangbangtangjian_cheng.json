@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_hejinjian_bangbangtangjian_hong",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:10006}"   
+        },
+        "title": {
+            "text":"\u00a7l橙色棒棒糖剑",
+            "color": ""
+        },
+        "description": {
+            "text":"橙色染料+糖+下界合金剑",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

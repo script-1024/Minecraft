@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "Power": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "nan2uu:ngt_wawa_nan2uu"
+        }
+      }
+    },
+    "rewards": {
+      "function": "nan2uu:give_ngt_wawa_nan2uu"
+    }
+  }

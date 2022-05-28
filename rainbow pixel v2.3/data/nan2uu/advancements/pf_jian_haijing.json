@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_jian_lanbing",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:10012}"   
+        },
+        "title": {
+            "text":"\u00a7l海晶剑",
+            "color": ""
+        },
+        "description": {
+            "text":"海晶碎片+下界合金剑",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

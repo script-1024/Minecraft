@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_glow_item_frame_tm",
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple",
+            "nbt": "{}"   
+        },
+        "title": {
+            "text":"\u00a7l附魔金苹果",
+            "color": ""
+        },
+        "description": {
+            "text":"■:金块 A:金苹果\n\n■ ■ ■\n■ A ■\n■ ■ ■",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

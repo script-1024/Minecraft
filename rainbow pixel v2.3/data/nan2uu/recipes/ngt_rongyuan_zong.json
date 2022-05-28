@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		"#R#",
+		" A "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:tropical_fish"
+		},
+		"A": {
+			"item": "minecraft:carved_pumpkin"
+		},
+        "R": {
+			"item": "minecraft:brown_dye"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

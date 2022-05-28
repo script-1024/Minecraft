@@ -45,4 +45,4 @@ execute unless score use_y ct.settings matches 0..1 run scoreboard players set t
 execute unless score distance_threshold_value ct.settings matches 1..2147483647 run scoreboard players set distance_threshold_value ct.settings 200
 
 scoreboard objectives add ct.plan dummy "計劃中"
-scoreboard objectives add ct.test dummy "調試"
+scoreboard objectives add ct.test dummy "測試"

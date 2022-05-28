@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_armor_stand_xiao_ysb_wdz",
+    "display": {
+        "icon": {
+            "item": "minecraft:armor_stand",
+            "nbt": "{CustomModelData:20005}"   
+        },
+        "title": {
+            "text":"\u00a7l盔甲架（小）",
+            "color": ""
+        },
+        "description": {
+            "text":"□:空位 /:木棍 -:平滑石头台阶\n\n□ / □\n/ / /\n□ - □",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

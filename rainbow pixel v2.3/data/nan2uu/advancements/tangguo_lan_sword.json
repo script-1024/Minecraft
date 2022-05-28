@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "Power": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "nan2uu:tangguo_lan_sword"
+        }
+      }
+    },
+    "rewards": {
+      "function": "nan2uu:give_tangguo_lan_sword"
+    }
+  }

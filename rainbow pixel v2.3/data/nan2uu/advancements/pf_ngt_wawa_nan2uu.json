@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_ngt",
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{CustomModelData:20007}"   
+        },
+        "title": {
+            "text":"\u00a7l小南烛",
+            "color": ""
+        },
+        "description": {
+            "text":"□:空位 D:钻石 ▲:黏土球 A:雕刻过的南瓜头\n\n□ A □\n▲ D ▲\n□ ▲ □",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

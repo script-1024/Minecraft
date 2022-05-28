@@ -1,0 +1,24 @@
+{
+    "parent": "nan2uu:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_shovel"
+        },
+        "title": {
+            "text":"\u00a7l下界合金铲皮肤合集",
+            "color": "light_purple"
+        },
+        "description": {
+            "text":"⚠警告！！合成会清空附魔属性\n⚠请合成成功后再进行附魔！",
+            "color": "yellow"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

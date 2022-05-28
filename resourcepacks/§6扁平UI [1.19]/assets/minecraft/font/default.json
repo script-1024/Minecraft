@@ -80,7 +80,7 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:font/symbol.png",
-			"height": 8,
+			"height": 16,
 			"ascent": 7,
 			"chars": [
 				"\u0000\u2642\u2640\u2764\u2716\u2714\u00a9\u00ae",
@@ -88,6 +88,18 @@
 				"\ue000\ue001\ue002\ue003\ue020\ue021\ue022\ue023",
 				"\ue004\ue005\u0000\u0000",
                 "\ue006\ue007\u0000\u0000"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:font/effect.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				"\uf000\uf001\uf002\uf003\uf004\uf005\uf006\uf007",
+				"\uf008\uf009\uf00a\uf00b\uf00c\uf00d\uf00e\uf00f",
+				"\uf010\uf011\uf012\uf013\uf014\uf015\uf016\uf017",
+				"\uf018\uf019\uf01a\uf01b\uf01c\uf01d\uf01e\uf01f"
 			]
 		},
         {

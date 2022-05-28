@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_ngt_rongyuan_huang",
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{CustomModelData:20010}"   
+        },
+        "title": {
+            "text":"\u00a7l美西螈帽（白）",
+            "color": ""
+        },
+        "description": {
+            "text":"□:空位 ➹:热带鱼 ♣:白色染料 A:雕刻过的南瓜头\n\n□ ➹ □\n➹ ♣ ➹\n□ A □",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

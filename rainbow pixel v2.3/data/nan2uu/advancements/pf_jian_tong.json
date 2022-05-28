@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_hejinjian_zishuijingjian",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:10009}"   
+        },
+        "title": {
+            "text":"\u00a7l黄青铜剑",
+            "color": ""
+        },
+        "description": {
+            "text":"铜锭+下界合金剑",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_ngt_kuanggongmao",
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{CustomModelData:20006}"   
+        },
+        "title": {
+            "text":"\u00a7l矿工帽(红)",
+            "color": ""
+        },
+        "description": {
+            "text":"□:空位 D:灯笼 T:铁锭 #:红色染料 A:雕刻过的南瓜头\n\n□ D □\n# T #\n□ A □",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

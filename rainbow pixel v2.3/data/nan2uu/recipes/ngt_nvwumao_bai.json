@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" J ",
+		"#R#",
+		" A "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:white_dye"
+		},
+		"A": {
+			"item": "minecraft:carved_pumpkin"
+		},
+        "R": {
+			"item": "minecraft:light_blue_dye"
+		},
+        "J": {
+			"item": "minecraft:gold_nugget"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

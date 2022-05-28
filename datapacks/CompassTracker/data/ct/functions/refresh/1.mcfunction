@@ -1,6 +1,6 @@
 scoreboard players set #1 ct.time 0
 
-execute run item replace entity @e[tag=c_m] container.1 with minecraft:compass{display:{Name:' "\\u00a7b追蹤器" '}, tracker:1b, obj:1, LodestoneTracked:0b, LodestonePos:{X:0, Y:0, Z:0}, LodestoneDimension:"minecraft:overworld"} 1
+execute run item replace entity @e[tag=c_m] container.1 with minecraft:compass{display:{Name:' "\\u00a7b追蹤器" '}, ct:1b, obj:1, LodestoneTracked:0b, LodestonePos:{X:0, Y:0, Z:0}, LodestoneDimension:"minecraft:overworld"} 1
 
 execute store result entity @e[tag=c_m, limit=1] Items[{Slot:1b}].tag.LodestonePos.X int 1 run scoreboard players get @s ct.target.x
 execute store result entity @e[tag=c_m, limit=1] Items[{Slot:1b}].tag.LodestonePos.Y int 1 run scoreboard players get @s ct.target.y

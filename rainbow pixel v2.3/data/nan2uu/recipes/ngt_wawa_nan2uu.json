@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" A ",
+		"#D#",
+		" # "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:clay_ball"
+		},
+		"A": {
+			"item": "minecraft:carved_pumpkin"
+		},
+        "D": {
+			"item": "minecraft:diamond"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

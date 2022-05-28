@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_jian_tong",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:10010}"   
+        },
+        "title": {
+            "text":"\u00a7l烈焰剑",
+            "color": ""
+        },
+        "description": {
+            "text":"烈焰棒+下界合金剑",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

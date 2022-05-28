@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_chutou_zishuijing",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_hoe",
+            "nbt": "{CustomModelData:10002}"   
+        },
+        "title": {
+            "text":"\u00a7l黄青铜锄",
+            "color": ""
+        },
+        "description": {
+            "text":"铜锭+下界合金锄",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

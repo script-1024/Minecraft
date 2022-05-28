@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_ngt_kuanggongmao_hong",
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{CustomModelData:20003}"   
+        },
+        "title": {
+            "text":"\u00a7l女巫帽（黑）",
+            "color": ""
+        },
+        "description": {
+            "text":"□:空位 ♣:黑色染料 D:红色染料 ▼:金粒 A:雕刻过的南瓜头\n\n□ ▼ □\n♣ D ♣\n□ A □",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

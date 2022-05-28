@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_chanzi_lanbing",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_shovel",
+            "nbt": "{CustomModelData:10005}"   
+        },
+        "title": {
+            "text":"\u00a7l海晶铲",
+            "color": ""
+        },
+        "description": {
+            "text":"海晶碎片+下界合金铲",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

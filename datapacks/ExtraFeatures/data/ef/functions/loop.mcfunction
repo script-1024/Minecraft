@@ -1,1 +1,1 @@
-scoreboard players enable @a ef.trigger
+function ef:wool

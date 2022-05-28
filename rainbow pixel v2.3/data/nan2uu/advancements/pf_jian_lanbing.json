@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_jian_lieyan",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:10011}"   
+        },
+        "title": {
+            "text":"\u00a7l蓝冰剑",
+            "color": ""
+        },
+        "description": {
+            "text":"蓝冰+下界合金剑",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }

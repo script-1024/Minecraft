@@ -1,0 +1,25 @@
+{
+    "parent": "nan2uu:pf_armor_stand_xiao_ysb_ydz",
+    "display": {
+        "icon": {
+            "item": "minecraft:armor_stand",
+            "nbt": "{CustomModelData:20003}"   
+        },
+        "title": {
+            "text":"\u00a7l有手臂无底座的盔甲架（大）",
+            "color": ""
+        },
+        "description": {
+            "text":"□:空位 /:木棍 A:盔甲架 ■:玻璃板\n\n□ □ □\n/ A /\n□ ■ □",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+            }
+        }
+    }
