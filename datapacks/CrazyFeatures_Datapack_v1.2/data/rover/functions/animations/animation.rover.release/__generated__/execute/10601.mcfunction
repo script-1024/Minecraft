@@ -1,2 +1,0 @@
-execute if score #this.aj.anim aj.i matches 52..64 run function rover:animations/animation.rover.release/__generated__/execute/10602
-execute if score #this.aj.anim aj.i matches 65..77 run function rover:animations/animation.rover.release/__generated__/execute/10609

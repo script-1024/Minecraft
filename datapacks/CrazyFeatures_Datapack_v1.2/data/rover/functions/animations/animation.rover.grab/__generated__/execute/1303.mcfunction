@@ -1,2 +1,0 @@
-execute if score #this.aj.anim aj.i matches 51 as @e[type=armor_stand,tag=aj.rover.arm_2,distance=..7.72] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [-165f,0f,-180f]
-execute if score #this.aj.anim aj.i matches 51..57 run tp @s ^0 ^0.854 ^0.63 ~ ~

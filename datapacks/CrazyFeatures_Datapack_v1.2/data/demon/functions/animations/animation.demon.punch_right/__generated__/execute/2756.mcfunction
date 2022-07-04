@@ -1,2 +1,0 @@
-execute if score #this.aj.anim aj.i matches 12..17 run function demon:animations/animation.demon.punch_right/__generated__/execute/2757
-execute if score #this.aj.anim aj.i matches 18..23 run function demon:animations/animation.demon.punch_right/__generated__/execute/2770

@@ -1,1 +1,0 @@
-execute as @e[type=armor_stand,tag=aj.rover.root_entity] run function rover:__generated__/execute/184

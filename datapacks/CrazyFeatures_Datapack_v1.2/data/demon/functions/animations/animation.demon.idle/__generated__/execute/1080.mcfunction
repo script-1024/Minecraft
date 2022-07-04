@@ -1,8 +1,0 @@
-execute if score #this.aj.anim aj.i matches 39 as @e[type=armor_stand,tag=aj.demon.leg_left_2,distance=..6.2] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [179.779f,2.411f,179.999f]
-execute if score #this.aj.anim aj.i matches 40 as @e[type=armor_stand,tag=aj.demon.leg_left_2,distance=..6.2] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [179.793f,2.412f,179.999f]
-execute if score #this.aj.anim aj.i matches 41 as @e[type=armor_stand,tag=aj.demon.leg_left_2,distance=..6.2] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [179.806f,2.413f,179.999f]
-execute if score #this.aj.anim aj.i matches 42 as @e[type=armor_stand,tag=aj.demon.leg_left_2,distance=..6.2] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [179.82f,2.415f,179.999f]
-execute if score #this.aj.anim aj.i matches 43 as @e[type=armor_stand,tag=aj.demon.leg_left_2,distance=..6.2] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [179.834f,2.416f,179.999f]
-execute if score #this.aj.anim aj.i matches 44 as @e[type=armor_stand,tag=aj.demon.leg_left_2,distance=..6.2] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [179.847f,2.417f,179.999f]
-execute if score #this.aj.anim aj.i matches 45 as @e[type=armor_stand,tag=aj.demon.leg_left_2,distance=..6.2] if score @s aj.id = #this.aj.id aj.i run data modify entity @s Pose.Head set value [179.861f,2.418f,179.999f]
-execute if score #this.aj.anim aj.i matches 39..45 run tp @s ^0.214 ^-1.114 ^0.218 ~ ~

@@ -1,2 +1,0 @@
-execute if score #this.aj.anim aj.i matches 0..9 run function demon:animations/animation.demon.walk/__generated__/execute/1857
-execute if score #this.aj.anim aj.i matches 10..19 run function demon:animations/animation.demon.walk/__generated__/execute/1878
