@@ -1,0 +1,11 @@
+{
+    "pack": {
+        "pack_format": 10,
+        "description": "§6殭屍末日§e數據包 v1.0§9作者: script1024"
+    },
+    "filter": {
+        "block": [
+            {"namespace": "minecraft"}
+        ]
+    }
+}

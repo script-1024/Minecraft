@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "torch",
+        "wall_torch",
+        "redstone_torch",
+        "redstone_wall_torch",
+        "soul_torch",
+        "soul_wall_torch"
+    ]
+}

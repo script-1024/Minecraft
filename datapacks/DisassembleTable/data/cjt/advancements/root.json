@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chicken_spawn_egg",
+            "nbt": "{CustomModelData:100}"   
+        },
+        "title": {"text":"拆解台"},
+        "description": {
+            "text":"已解鎖拆解台的合成配方",
+            "color": "yellow"
+        },
+        "frame": "task",
+        "background": "minecraft:textures/icon/bg.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "Power": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cjt:block"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cjt:give"
+    }
+}

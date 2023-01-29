@@ -1,0 +1,4 @@
+execute positioned ^ ^ ^16 unless entity @e[tag=room,distance=..2] at @s positioned ^ ^ ^8 as @e[tag=door,limit=1,sort=nearest] rotated as @s run function dun:gen/door/0
+execute positioned ^ ^ ^-16 unless entity @e[tag=room,distance=..2] at @s positioned ^ ^ ^-8 as @e[tag=door,limit=1,sort=nearest] rotated as @s run function dun:gen/door/0
+execute positioned ^16 ^ ^ unless entity @e[tag=room,distance=..2] at @s positioned ^8 ^ ^ as @e[tag=door,limit=1,sort=nearest] rotated as @s run function dun:gen/door/0
+execute positioned ^-16 ^ ^ unless entity @e[tag=room,distance=..2] at @s positioned ^-8 ^ ^ as @e[tag=door,limit=1,sort=nearest] rotated as @s run function dun:gen/door/0

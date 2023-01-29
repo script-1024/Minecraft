@@ -1,0 +1,2 @@
+execute unless entity @e[tag=room,distance=..2] run scoreboard players add summon dun.room 1
+execute unless entity @e[tag=room,distance=..2] run summon armor_stand ~ ~ ~ {Tags:[dun,normal,room,wait],Small:1b,Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b}

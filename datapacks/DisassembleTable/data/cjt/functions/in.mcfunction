@@ -1,0 +1,2 @@
+execute store result score @s cjt.in run data get block ~ ~ ~ Items[{Slot:10b}].Count
+execute if data block ~ ~ ~ Items[{Slot:10b}].tag.Damage unless data block ~ ~ ~ Items[{Slot:10b,tag:{Damage:0}}] run tellraw @p "\u00a7b提示> \u00a7e只有\u00a76未損壞的物品\u00a7e才能被分解"

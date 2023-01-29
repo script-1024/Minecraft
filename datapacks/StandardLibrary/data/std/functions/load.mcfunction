@@ -1,5 +1,8 @@
 gamerule maxCommandChainLength 2147483647
 
+scoreboard objectives add std.set dummy
+scoreboard players set #load std.set 1
+
 # Trigger
 scoreboard objectives add here trigger
 
@@ -35,6 +38,7 @@ scoreboard objectives add rng.temp dummy
 
 function std:define/const
 function std:actionbar
+function std:loop
 
 scoreboard objectives setdisplay list p.health
 

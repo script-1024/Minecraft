@@ -1,3 +1,3 @@
-scoreboard players operation @s p.exp.tmp = @s p.level
-scoreboard players operation @s p.exp.tmp *= #2 std.const
-scoreboard players add @s p.exp.tmp 7
+scoreboard players operation @s p.xp.tmp = @s p.level
+scoreboard players operation @s p.xp.tmp *= #2 std.const
+scoreboard players add @s p.xp.tmp 7

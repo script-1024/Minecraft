@@ -1,0 +1,1 @@
+tellraw @p ["\n",{"storage":"dun:lang","nbt":"msg.tips.prefix"},{"storage":"dun:lang","nbt":"msg.tips.cancel"}]

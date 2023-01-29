@@ -1,6 +1,5 @@
 {
-	"replace":"false",
 	"values": [
-		"ys:loop"
+		"ys:tick"
 	]
 }

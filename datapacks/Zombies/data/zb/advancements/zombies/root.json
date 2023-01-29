@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:1}"   
+        },
+        "title": {
+            "text": "遊玩進度"
+        },
+        "description": {
+            "text": "探索的起點",
+            "color": "aqua"
+        },
+        "frame": "task",
+        "background": "minecraft:textures/icon/bg.png",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "minecraft:tick"
+        }
+    }
+}

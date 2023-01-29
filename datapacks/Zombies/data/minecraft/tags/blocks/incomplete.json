@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "lever",
+        "#air",
+        "#beds",
+        "#buttons",
+        "#doors",
+        "#fence_gates",
+        "#fire",
+        "#flowers",
+        "#flower_pots",
+        "#pressure_plates",
+        "#signs",
+        "#slabs",
+        "#torchs",
+        "#trapdoors"
+    ]
+}

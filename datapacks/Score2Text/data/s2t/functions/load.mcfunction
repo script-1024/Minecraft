@@ -1,0 +1,1 @@
+scoreboard objectives add s2t.score dummy

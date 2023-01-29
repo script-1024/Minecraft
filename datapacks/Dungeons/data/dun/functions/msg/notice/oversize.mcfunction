@@ -1,0 +1,2 @@
+tellraw @p ["\n",{"storage":"dun:lang","nbt":"msg.notice.prefix"},{"storage":"dun:lang","nbt":"msg.notice.risky.settings"},{"score":{"name":"set","objective":"dun.room"},"color":"aqua"},{"storage":"dun:lang","nbt":"msg.notice.rooms"},"\n       ",{"storage":"dun:lang","nbt":"msg.notice.oversize"}]
+function dun:msg/tips/next
