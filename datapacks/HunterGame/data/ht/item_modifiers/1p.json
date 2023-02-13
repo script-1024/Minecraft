@@ -1,0 +1,16 @@
+[
+    {
+        "function": "copy_nbt",
+        "source": {
+            "type": "storage",
+            "source": "ht:nbt"
+        },
+        "ops": [
+            {
+                "source": "1p.Pos",
+                "target": "LodestonePos",
+                "op": "replace"
+            }
+        ]
+    }
+]
