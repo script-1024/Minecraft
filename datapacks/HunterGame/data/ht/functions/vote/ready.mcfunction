@@ -1,5 +1,4 @@
-team empty hunter
-team empty runner
+scoreboard players set @a vote -1
 
 scoreboard players set #1p ht.tag 0
 scoreboard players set #2p ht.tag 0
@@ -8,8 +7,10 @@ scoreboard players set #game ht.tag 0
 scoreboard players set #voted ht.tag 0
 
 scoreboard players enable @a vote
-scoreboard players set @a vote -1
 scoreboard players set @a player.score 0
+
+team empty hunter
+team empty runner
 
 execute if entity @a[scores={player.uid=0}] run tellraw @a [{"translate":"§6[點我] %s","color":"yellow","with":[{"selector":"@a[limit=1,scores={player.uid=0}]"}],"clickEvent":{"action":"run_command","value":"/trigger vote set 0"}}]
 execute if entity @a[scores={player.uid=1}] run tellraw @a [{"translate":"§6[點我] %s","color":"yellow","with":[{"selector":"@a[limit=1,scores={player.uid=1}]"}],"clickEvent":{"action":"run_command","value":"/trigger vote set 1"}}]
