@@ -11,7 +11,7 @@ execute if score @s showTargetDistance matches 0 if score @s target.distance mat
 execute if score @s showTargetDistance matches 1 if entity @p[team=runner,distance=0..] run title @s actionbar [{"translate":"最近的遊俠距離：%s米","color":"yellow","with":[{"score":{"name":"@s","objective":"target.distance"},"color":"aqua"}]}]
 execute unless entity @p[team=runner,distance=0..] run title @s actionbar [{"translate":"§c目標消失位置：§r(%1$s, %2$s, %3$s)","color":"yellow","with":[{"score":{"name":"@s","objective":"target.x"},"color":"red"},{"score":{"name":"@s","objective":"target.y"},"color":"green"},{"score":{"name":"@s","objective":"target.z"},"color":"aqua"}]}]
 
-execute store success score @s player.score if data entity @s Inventory[{Slot:8b}] if data entity @s Inventory[{id:"minecraft:compass"}]
+execute store result score @s player.score run data get entity @s Inventory[{id:"minecraft:compass"}].Count 1
 execute unless score @s player.score matches 1 run function ht:give_compass
 
 execute if data entity @s Inventory[{Slot:8b}].tag.tracker if entity @p[team=runner,distance=0..] run function ht:hunter/tracker

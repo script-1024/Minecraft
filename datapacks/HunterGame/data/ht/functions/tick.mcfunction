@@ -18,3 +18,4 @@ execute as @a store result score @s self.y run data get entity @s Pos[1] 1
 execute as @a store result score @s self.z run data get entity @s Pos[2] 1
 
 clear @a[team=!hunter] compass{tracker:1b}
+kill @e[type=item,nbt={Item:{tag:{tracker:1b}}}]
