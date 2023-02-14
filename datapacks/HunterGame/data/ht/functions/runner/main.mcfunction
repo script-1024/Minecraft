@@ -12,6 +12,10 @@ execute if score @s runner.p matches 2 store result storage ht:nbt 2p.Pos.X int 
 execute if score @s runner.p matches 2 store result storage ht:nbt 2p.Pos.Y int 1 run scoreboard players get @s self.y
 execute if score @s runner.p matches 2 store result storage ht:nbt 2p.Pos.Z int 1 run scoreboard players get @s self.z
 
+execute if score @s runner.p matches 3 store result storage ht:nbt 3p.Pos.X int 1 run scoreboard players get @s self.x
+execute if score @s runner.p matches 3 store result storage ht:nbt 3p.Pos.Y int 1 run scoreboard players get @s self.y
+execute if score @s runner.p matches 3 store result storage ht:nbt 3p.Pos.Z int 1 run scoreboard players get @s self.z
+
 execute store result score @s target.x if entity @p[team=hunter,distance=0..] run data get entity @p[team=hunter] Pos[0] 1
 execute store result score @s target.y if entity @p[team=hunter,distance=0..] run data get entity @p[team=hunter] Pos[1] 1
 execute store result score @s target.z if entity @p[team=hunter,distance=0..] run data get entity @p[team=hunter] Pos[2] 1
