@@ -1,7 +1,8 @@
 #alias entity hunter @p[team=hunter,distance=0..]
 
-execute unless score @s runner.p matches 1..2 unless entity @a[team=runner,scores={runner.p=1}] run scoreboard players set @s runner.p 1
-execute unless score @s runner.p matches 1..2 unless entity @a[team=runner,scores={runner.p=2}] run scoreboard players set @s runner.p 2
+execute unless score @s runner.p matches 1..3 unless entity @a[team=runner,scores={runner.p=1}] run scoreboard players set @s runner.p 1
+execute unless score @s runner.p matches 1..3 unless entity @a[team=runner,scores={runner.p=2}] run scoreboard players set @s runner.p 2
+execute unless score @s runner.p matches 1..3 unless entity @a[team=runner,scores={runner.p=3}] run scoreboard players set @s runner.p 3
 
 execute if score @s runner.p matches 1 store result storage ht:nbt 1p.Pos.X int 1 run scoreboard players get @s self.x
 execute if score @s runner.p matches 1 store result storage ht:nbt 1p.Pos.Y int 1 run scoreboard players get @s self.y

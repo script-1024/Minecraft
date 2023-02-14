@@ -18,7 +18,7 @@ scoreboard objectives add target.distance dummy
 scoreboard objectives add runner.p dummy
 
 scoreboard objectives add player.uid dummy
-scoreboard objectives add player.votes dummy
+scoreboard objectives add player.score dummy
 
 scoreboard objectives add showTargetDistance trigger
 scoreboard objectives add runner trigger

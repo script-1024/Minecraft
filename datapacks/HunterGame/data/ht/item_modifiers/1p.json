@@ -12,5 +12,16 @@
                 "op": "replace"
             }
         ]
+    },
+    {
+        "function": "copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Dimension",
+                "target": "LodestoneDimension",
+                "op": "replace"
+            }
+        ]
     }
 ]
