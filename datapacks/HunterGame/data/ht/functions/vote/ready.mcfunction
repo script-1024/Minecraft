@@ -4,6 +4,7 @@ team empty runner
 scoreboard players set #1p ht.tag 0
 scoreboard players set #2p ht.tag 0
 scoreboard players set #3p ht.tag 0
+scoreboard players set #game ht.tag 0
 scoreboard players set #voted ht.tag 0
 
 scoreboard players enable @a vote
