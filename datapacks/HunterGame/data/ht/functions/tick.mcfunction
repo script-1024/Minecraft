@@ -3,7 +3,6 @@ execute unless score #bc ht.tag = #voted ht.tag unless score #voted ht.tag match
 execute unless score #bc ht.tag = #voted ht.tag if score #voted ht.tag matches 0 run scoreboard players set #bc ht.tag 0
 
 execute as @a unless score @s player.uid matches 0.. run function ht:give_uid
-execute as @a if score @s vote matches 0.. run function ht:vote/trigger
 
 function ht:trigger
 execute if score #game ht.tag matches 1.. run function ht:game/main

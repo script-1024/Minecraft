@@ -13,3 +13,7 @@ execute as @a if score @s runner matches 0.. run function ht:runner/set_max
 scoreboard players enable @a time
 execute as @a unless score @s runner matches 0.. run scoreboard players set @s runner 0
 execute as @a if score @s runner matches 1.. run function ht:set_time
+
+execute if score #game ht.tag matches -1 run scoreboard players enable @a vote
+execute as @a unless score @s vote matches -1.. run scoreboard players set @s vote -1
+execute as @a if score @s vote matches 0.. run function ht:vote/trigger

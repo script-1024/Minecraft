@@ -2,6 +2,8 @@ scoreboard players set #-1 const -1
 scoreboard players set #10 const 10
 scoreboard players set #60 const 60
 
+scoreboard players set #t ht.tag 0
+scoreboard players set #game ht.tag -1
 scoreboard players set #voted ht.tag 0
 
 execute unless score #ps ht.tag matches 0.. run scoreboard players set #ps ht.tag 0

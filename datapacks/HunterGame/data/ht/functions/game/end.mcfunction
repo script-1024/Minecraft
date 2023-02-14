@@ -1,5 +1,4 @@
-scoreboard players set #game ht.tag 5
-effect give @a[tag=ht] resistance 1000000 4 true
+scoreboard players set #game ht.tag -1
 
 bossbar set timer visible false
 
