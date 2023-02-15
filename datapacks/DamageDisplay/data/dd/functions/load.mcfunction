@@ -4,4 +4,6 @@ scoreboard objectives add entity.health.diff dummy
 
 scoreboard objectives add dd.timer dummy
 
+function dd:timer
+
 tellraw @a[gamemode=creative] "\u00a7b提示> \u00a76傷害顯示\u00a7e讀取完畢"
