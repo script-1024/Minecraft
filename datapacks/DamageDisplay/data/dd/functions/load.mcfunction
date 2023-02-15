@@ -1,11 +1,8 @@
-scoreboard objectives add dd.nowHealth dummy
-scoreboard objectives add dd.preHealth dummy
-scoreboard objectives add dd.nowDamage dummy
-scoreboard objectives add dd.preDamage dummy
-scoreboard objectives add dd.timer dummy
+scoreboard objectives add entity.health.current dummy
+scoreboard objectives add entity.health.prev dummy
+scoreboard objectives add entity.health.diff dummy
 
-team add dd
-team modify dd color yellow
+scoreboard objectives add dd.timer dummy
 
 function dd:timer
 
