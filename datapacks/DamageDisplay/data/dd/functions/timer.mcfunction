@@ -1,3 +1,3 @@
-schedule function dd:timer 0.1s
+schedule function dd:timer 0.05s
 
-scoreboard players remove @e[scores={dd.timer=1..}] dd.timer 1
+scoreboard players add @e[scores={dd.timer=0..}] dd.timer 2
