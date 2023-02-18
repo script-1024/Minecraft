@@ -2,6 +2,8 @@ scoreboard objectives add entity.health.current dummy
 scoreboard objectives add entity.health.prev dummy
 scoreboard objectives add entity.health.diff dummy
 
+scoreboard objective add entity.transformation.scale dummy
+
 scoreboard objectives add dd.timer dummy
 scoreboard objectives add const dummy
 

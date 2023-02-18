@@ -1,6 +1,6 @@
 #define entity text_display
 
-data merge entity @s {Tags:[dd,t],billboard:"center",background:0,see_through:true,transformation:{scale:[0f,0f,0f]},interpolation_start:0,interpolation_duration:10}
+data merge entity @s {Tags:[dd,d,t],billboard:"center",background:0,see_through:true,transformation:{scale:[0f,0f,0f]},interpolation_start:0,interpolation_duration:10}
 execute if score @e[limit=1,sort=nearest,tag=e] entity.health.diff matches 1.. run data modify entity @s text set value '{"color":"#FFFFFF","score":{"name":"@e[limit=1,sort=nearest,tag=e]","objective":"entity.health.diff"}}'
 execute if score @e[limit=1,sort=nearest,tag=e] entity.health.diff matches 0 run function dd:entity/immune
 execute if score @e[limit=1,sort=nearest,tag=e] entity.health.diff matches ..-1 run function dd:entity/heal
