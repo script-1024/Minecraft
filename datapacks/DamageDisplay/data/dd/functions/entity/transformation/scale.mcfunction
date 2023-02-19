@@ -1,3 +1,3 @@
-execute if entity @s[tag=d] store result entity @s transformation.scale[0] float 0.1 run scoreboard players get @s entity.transformation.scale
-execute if entity @s[tag=d] store result entity @s transformation.scale[1] float 0.1 run scoreboard players get @s entity.transformation.scale
-execute if entity @s[tag=d] store result entity @s transformation.scale[2] float 0.1 run scoreboard players get @s entity.transformation.scale
+execute store result entity @s transformation.scale[0] float 0.1 run scoreboard players get @s entity.transformation.scale
+execute store result entity @s transformation.scale[1] float 0.1 run scoreboard players get @s entity.transformation.scale
+execute store result entity @s transformation.scale[2] float 0.1 run scoreboard players get @s entity.transformation.scale
