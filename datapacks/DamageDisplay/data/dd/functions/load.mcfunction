@@ -9,6 +9,7 @@ scoreboard objectives add entity.transformation.z dummy
 
 scoreboard objectives add entity.state.wet dummy
 scoreboard objectives add entity.state.fire dummy
+scoreboard objectives add entity.state.passenger dummy
 
 scoreboard objectives add entity.timer.wet dummy
 scoreboard objectives add entity.timer.fire dummy

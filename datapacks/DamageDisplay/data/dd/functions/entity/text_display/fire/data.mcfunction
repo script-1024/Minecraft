@@ -1,4 +1,4 @@
-data merge entity @s {Tags:[dd,d,f],billboard:"center",background:0,see_through:true,transformation:{scale:[0f,0f,0f]},interpolation_start:0}
+data merge entity @s {Tags:[dd,d,f],billboard:"center",background:0,see_through:true,transformation:{scale:[0f,0f,0f]}}
 data modify entity @s text set value '{"color":"#F25040","text":"燃燒"}'
 
 execute unless score @s dd.timer matches 0.. run scoreboard players set @s dd.timer 0

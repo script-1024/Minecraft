@@ -1,6 +1,7 @@
 execute if entity @s[tag=!d] run function dd:entity/health
 execute if entity @s[tag=!d] run function dd:entity/state
 execute if entity @s[tag=d] run function dd:entity/transformation/scale
+execute if entity @s[tag=!i] run function dd:entity/text_display/icon/display
 
 execute if score @s dd.timer matches ..-15 run kill @s
 
