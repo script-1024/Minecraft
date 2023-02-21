@@ -2,10 +2,10 @@ scoreboard objectives add entity.health.current dummy
 scoreboard objectives add entity.health.prev dummy
 scoreboard objectives add entity.health.diff dummy
 
-scoreboard objectives add entity.transformation.scale dummy
-scoreboard objectives add entity.transformation.x dummy
-scoreboard objectives add entity.transformation.y dummy
-scoreboard objectives add entity.transformation.z dummy
+scoreboard objectives add entity.tf.scale dummy
+scoreboard objectives add entity.tf.x dummy
+scoreboard objectives add entity.tf.y dummy
+scoreboard objectives add entity.tf.z dummy
 
 scoreboard objectives add entity.state.wet dummy
 scoreboard objectives add entity.state.fire dummy

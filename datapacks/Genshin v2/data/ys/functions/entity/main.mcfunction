@@ -1,0 +1,1 @@
+execute if entity @s[type=player] run function ys:entity/player/main
