@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "minecraft:block/pressure_plate/off/acacia"
+    },
+    "powered=true": {
+      "model": "minecraft:block/pressure_plate/on/acacia"
+    }
+  }
+}

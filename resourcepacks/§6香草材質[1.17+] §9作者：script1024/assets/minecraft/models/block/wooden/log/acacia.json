@@ -1,0 +1,8 @@
+{
+	"parent": "block/template/cube/side",
+	"textures": {
+		"0": "block/wooden/log/side/acacia",
+		"1": "block/wooden/log/top/acacia",
+		"particle": "block/wooden/log/side/acacia"
+	}
+}

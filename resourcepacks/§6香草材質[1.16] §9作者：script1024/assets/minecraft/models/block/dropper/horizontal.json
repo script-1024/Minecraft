@@ -1,0 +1,9 @@
+{
+	"parent": "block/template/cube/directional",
+	"textures": {
+		"up": "block/dropper/top",
+		"side": "block/dropper/side",
+		"front": "block/dropper/front",
+		"down": "block/dropper/bottom"
+	}
+}

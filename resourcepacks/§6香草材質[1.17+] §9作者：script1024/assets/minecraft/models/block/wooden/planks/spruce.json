@@ -1,0 +1,6 @@
+{
+	"parent": "block/template/cube/all",
+	"textures": {
+		"all": "block/wooden/planks/spruce"
+	}
+}

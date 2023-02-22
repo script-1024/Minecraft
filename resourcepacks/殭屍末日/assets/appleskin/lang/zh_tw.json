@@ -1,0 +1,13 @@
+{
+  "text.autoconfig.appleskin.title": "AppleSkin",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltip": "顯示食物的飢餓值和飽和度(按Shift顯示)",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltipAlways": "始終顯示食物的飢餓值和飽和度",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlay": "顯示從食物中預計恢復的飢餓值",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlayWhenOffhand": "顯示從食物中預計恢復的生命值",
+  "text.autoconfig.appleskin.option.showFoodHealthHudOverlay": "顯示食用後預計恢復的生命值圖層",
+  "text.autoconfig.appleskin.option.showFoodExhaustionHudUnderlay": "顯示飢餓值將要耗盡的底部圖層",
+  "text.autoconfig.appleskin.option.showSaturationHudOverlay": "顯示食用後預計恢復的飽和度圖層",
+  "text.autoconfig.appleskin.option.showFoodDebugInfo": "在調試屏幕中顯示食物的飽和度",
+  "text.autoconfig.appleskin.option.showVanillaAnimationsOverlay": "啟用匹配原版HUD圖標的動畫",
+  "text.autoconfig.appleskin.option.maxHudOverlayFlashAlpha": "設置HUD閃爍圖標的透明度(1.0=不透明 0.0=完全透明)"
+}

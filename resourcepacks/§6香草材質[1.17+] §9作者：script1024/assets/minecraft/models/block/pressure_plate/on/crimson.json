@@ -1,0 +1,6 @@
+{
+	"parent": "block/template/pressure_plate/on",
+	"textures": {
+		"material": "block/pressure_plate/material/crimson"
+	}
+}

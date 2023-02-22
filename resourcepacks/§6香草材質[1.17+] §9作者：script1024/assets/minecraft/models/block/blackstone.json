@@ -1,0 +1,7 @@
+{
+	"parent": "block/template/cube/side",
+	"textures": {
+		"end": "block/blackstone/top",
+		"side": "block/blackstone/side"
+	}
+}

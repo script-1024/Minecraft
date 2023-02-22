@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data":1}, "model": "zb:item/empty"},
+        {"predicate": {"custom_model_data":1000}, "model": "zb:item/pistol/0"},
+        {"predicate": {"custom_model_data":1100}, "model": "zb:item/pistol/a0"},
+        {"predicate": {"custom_model_data":2000}, "model": "zb:item/rifle/0"}
+    ]
+}
