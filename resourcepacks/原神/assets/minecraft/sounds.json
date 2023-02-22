@@ -1,0 +1,101 @@
+{
+  "entity.player.attack.crit": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.attack.crit"
+  },
+  "entity.player.attack.knockback": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.attack.knockback"
+  },
+  "entity.player.attack.nodamage": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.attack.weak"
+  },
+  "entity.player.attack.strong": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.attack.strong"
+  },
+  "entity.player.attack.sweep": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.attack.sweep"
+  },
+  "entity.player.attack.weak": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.attack.weak"
+  },
+  "entity.player.big_fall": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.generic.big_fall"
+  },
+  "entity.player.breath": {
+    "replace": "true",
+    "sounds": []
+  },
+  "entity.player.burp": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.burp"
+  },
+  "entity.player.death": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.death"
+  },
+  "entity.player.hurt": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.hurt"
+  },
+  "entity.player.hurt_drown": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.hurt_drown"
+  },
+  "entity.player.hurt_freeze": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.freeze_hurt"
+  },
+  "entity.player.hurt_on_fire": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.hurt_on_fire"
+  },
+  "entity.player.hurt_sweet_berry_bush": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.hurt"
+  },
+  "entity.player.levelup": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.player.levelup"
+  },
+  "entity.player.small_fall": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.generic.small_fall"
+  },
+  "entity.player.splash": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.generic.splash"
+  },
+  "entity.player.splash.high_speed": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.generic.splash"
+  },
+  "entity.player.swim": {
+    "replace": "true",
+    "sounds": [],
+    "subtitle": "subtitles.entity.generic.swim"
+  }
+}
