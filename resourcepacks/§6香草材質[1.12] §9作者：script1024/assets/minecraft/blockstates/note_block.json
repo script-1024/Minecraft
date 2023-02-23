@@ -1,0 +1,352 @@
+{
+	"multipart": [
+		{	"when": { "note": "0" },
+			"apply": { "model":	"note_note/0" }
+		},
+		{	"when": { "note": "1" },
+			"apply": { "model":	"note_note/1" }
+		},
+		{	"when": { "note": "2" },
+			"apply": { "model":	"note_note/2" }
+		},
+		{	"when": { "note": "3" },
+			"apply": { "model":	"note_note/3" }
+		},
+		{	"when": { "note": "4" },
+			"apply": { "model":	"note_note/4" }
+		},
+		{	"when": { "note": "5" },
+			"apply": { "model":	"note_note/5" }
+		},
+		{	"when": { "note": "6" },
+			"apply": { "model":	"note_note/6" }
+		},
+		{	"when": { "note": "7" },
+			"apply": { "model":	"note_note/7" }
+		},
+		{	"when": { "note": "8" },
+			"apply": { "model":	"note_note/8" }
+		},
+		{	"when": { "note": "9" },
+			"apply": { "model":	"note_note/9" }
+		},
+		{	"when": { "note": "10" },
+			"apply": { "model":	"note_note/10" }
+		},
+		{	"when": { "note": "11" },
+			"apply": { "model":	"note_note/11" }
+		},
+		{	"when": { "note": "12" },
+			"apply": { "model":	"note_note/12" }
+		},
+		{	"when": { "note": "13" },
+			"apply": { "model":	"note_note/13" }
+		},
+		{	"when": { "note": "14" },
+			"apply": { "model":	"note_note/14" }
+		},
+		{	"when": { "note": "15" },
+			"apply": { "model":	"note_note/15" }
+		},
+		{	"when": { "note": "16" },
+			"apply": { "model":	"note_note/16" }
+		},
+		{	"when": { "note": "17" },
+			"apply": { "model":	"note_note/17" }
+		},
+		{	"when": { "note": "18" },
+			"apply": { "model":	"note_note/18" }
+		},
+		{	"when": { "note": "19" },
+			"apply": { "model":	"note_note/19" }
+		},
+		{	"when": { "note": "20" },
+			"apply": { "model":	"note_note/20" }
+		},
+		{	"when": { "note": "21" },
+			"apply": { "model":	"note_note/21" }
+		},
+		{	"when": { "note": "22" },
+			"apply": { "model":	"note_note/22" }
+		},
+		{	"when": { "note": "23" },
+			"apply": { "model":	"note_note/23" }
+		},
+		{	"when": { "note": "24" },
+			"apply": { "model": "note_note/24" }
+		},
+		{	"when": { "instrument": "banjo" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "basedrum" },
+			"apply": { "model": "note_instrument/basedrum" }
+		},
+		{	"when": { "instrument": "bass" },
+			"apply": { "model": "note_instrument/bass" }
+		},
+		{	"when": { "instrument": "bell" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "bit" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "chime" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "cow_bell" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "didgeridoo" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "flute" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "guitar" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "harp" },
+			"apply": { "model": "note_instrument/harp" }
+		},
+		{	"when": { "instrument": "hat" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "iron_xylophone" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "pling" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "snare" },
+			"apply": { "model": "note_instrument/snare" }
+		},
+		{	"when": { "instrument": "xylophone" },
+			"apply": { "model": "" }
+		},
+		{	"when": { "instrument": "banjo", "note": "0" },
+			"apply": { "model":"F#3" }
+		},
+		{	"when": { "instrument": "banjo", "note": "1" },
+			"apply": { "model":"G3" }
+		},
+		{	"when": { "instrument": "banjo", "note": "2" },
+			"apply": { "model":"G#3" }
+		},
+		{	"when": { "instrument": "banjo", "note": "3" },
+			"apply": { "model":"A3" }
+		},
+		{	"when": { "instrument": "banjo", "note": "4" },
+			"apply": { "model":"A#3" }
+		},
+		{	"when": { "instrument": "banjo", "note": "5" },
+			"apply": { "model":"B3" }
+		},
+		{	"when": { "instrument": "banjo", "note": "6" },
+			"apply": { "model":"C4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "7" },
+			"apply": { "model":"C#4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "8" },
+			"apply": { "model":"D4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "9" },
+			"apply": { "model":"D#4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "10" },
+			"apply": { "model":"E4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "11" },
+			"apply": { "model":"F4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "12" },
+			"apply": { "model":"F#4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "13" },
+			"apply": { "model":"G4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "14" },
+			"apply": { "model":"G#4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "15" },
+			"apply": { "model":"A4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "16" },
+			"apply": { "model":"A#4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "17" },
+			"apply": { "model":"B4" }
+		},
+		{	"when": { "instrument": "banjo", "note": "18" },
+			"apply": { "model":"C5" }
+		},
+		{	"when": { "instrument": "banjo", "note": "19" },
+			"apply": { "model":"C#5" }
+		},
+		{	"when": { "instrument": "banjo", "note": "20" },
+			"apply": { "model":"D5" }
+		},
+		{	"when": { "instrument": "banjo", "note": "21" },
+			"apply": { "model":"D#5" }
+		},
+		{	"when": { "instrument": "banjo", "note": "22" },
+			"apply": { "model":"E5" }
+		},
+		{	"when": { "instrument": "banjo", "note": "23" },
+			"apply": { "model":"F5" }
+		},
+		{	"when": { "instrument": "banjo", "note": "24" },
+			"apply": { "model":"F#5" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "0" },
+			"apply": { "model":"F#3" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "1" },
+			"apply": { "model":"G3" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "2" },
+			"apply": { "model":"G#3" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "3" },
+			"apply": { "model":"A3" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "4" },
+			"apply": { "model":"A#3" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "5" },
+			"apply": { "model":"B3" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "6" },
+			"apply": { "model":"C4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "7" },
+			"apply": { "model":"C#4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "8" },
+			"apply": { "model":"D4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "9" },
+			"apply": { "model":"D#4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "10" },
+			"apply": { "model":"E4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "11" },
+			"apply": { "model":"F4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "12" },
+			"apply": { "model":"F#4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "13" },
+			"apply": { "model":"G4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "14" },
+			"apply": { "model":"G#4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "15" },
+			"apply": { "model":"A4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "16" },
+			"apply": { "model":"A#4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "17" },
+			"apply": { "model":"B4" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "18" },
+			"apply": { "model":"C5" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "19" },
+			"apply": { "model":"C#5" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "20" },
+			"apply": { "model":"D5" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "21" },
+			"apply": { "model":"D#5" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "22" },
+			"apply": { "model":"E5" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "23" },
+			"apply": { "model":"F5" }
+		},
+		{	"when": { "instrument": "basedrum", "note": "24" },
+			"apply": { "model":"F#5" }
+		},
+		{	"when": { "instrument": "bass", "note": "0" },
+			"apply": { "model":"F#1" }
+		},
+		{	"when": { "instrument": "bass", "note": "1" },
+			"apply": { "model":"G1" }
+		},
+		{	"when": { "instrument": "bass", "note": "2" },
+			"apply": { "model":"G#1" }
+		},
+		{	"when": { "instrument": "bass", "note": "3" },
+			"apply": { "model":"A1" }
+		},
+		{	"when": { "instrument": "bass", "note": "4" },
+			"apply": { "model":"A#1" }
+		},
+		{	"when": { "instrument": "bass", "note": "5" },
+			"apply": { "model":"B1" }
+		},
+		{	"when": { "instrument": "bass", "note": "6" },
+			"apply": { "model":"C2" }
+		},
+		{	"when": { "instrument": "bass", "note": "7" },
+			"apply": { "model":"C#2" }
+		},
+		{	"when": { "instrument": "bass", "note": "8" },
+			"apply": { "model":"D2" }
+		},
+		{	"when": { "instrument": "bass", "note": "9" },
+			"apply": { "model":"D#2" }
+		},
+		{	"when": { "instrument": "bass", "note": "10" },
+			"apply": { "model":"E2" }
+		},
+		{	"when": { "instrument": "bass", "note": "11" },
+			"apply": { "model":"F2" }
+		},
+		{	"when": { "instrument": "bass", "note": "12" },
+			"apply": { "model":"F#2" }
+		},
+		{	"when": { "instrument": "bass", "note": "13" },
+			"apply": { "model":"G2" }
+		},
+		{	"when": { "instrument": "bass", "note": "14" },
+			"apply": { "model":"G#2" }
+		},
+		{	"when": { "instrument": "bass", "note": "15" },
+			"apply": { "model":"A2" }
+		},
+		{	"when": { "instrument": "bass", "note": "16" },
+			"apply": { "model":"A#2" }
+		},
+		{	"when": { "instrument": "bass", "note": "17" },
+			"apply": { "model":"B2" }
+		},
+		{	"when": { "instrument": "bass", "note": "18" },
+			"apply": { "model":"C3" }
+		},
+		{	"when": { "instrument": "bass", "note": "19" },
+			"apply": { "model":"C#3" }
+		},
+		{	"when": { "instrument": "bass", "note": "20" },
+			"apply": { "model":"D3" }
+		},
+		{	"when": { "instrument": "bass", "note": "21" },
+			"apply": { "model":"D#3" }
+		},
+		{	"when": { "instrument": "bass", "note": "22" },
+			"apply": { "model":"E3" }
+		},
+		{	"when": { "instrument": "bass", "note": "23" },
+			"apply": { "model":"F3" }
+		},
+		{	"when": { "instrument": "bass", "note": "24" },
+			"apply": { "model":"F#3" }
+		},
+	]
+}

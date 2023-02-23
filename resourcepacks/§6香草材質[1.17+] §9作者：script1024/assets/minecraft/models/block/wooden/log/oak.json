@@ -1,0 +1,7 @@
+{
+	"parent": "block/template/cube/side",
+	"textures": {
+		"end": "block/wooden/log/top/oak",
+		"side": "block/wooden/log/side/oak"
+	}
+}

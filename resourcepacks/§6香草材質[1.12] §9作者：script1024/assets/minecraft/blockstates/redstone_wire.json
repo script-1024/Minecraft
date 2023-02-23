@@ -1,0 +1,468 @@
+{
+    "multipart": [
+        {   "when": { "OR": [
+                {
+				"north": "none",
+				"east": "none",
+				"south": "none",
+				"west": "none"
+				},
+                {
+				"north": "side|up",
+				"east": "side|up"
+				},
+                {"east": "side|up",
+				"south": "side|up"
+				},
+                {"south": "side|up",
+				"west": "side|up"
+				},
+                {"west": "side|up",
+				"north": "side|up"
+				}
+            ]},
+            "apply": { "model": "redstone_dust/dot" }
+        },
+        {   "when": { "OR": [
+                {"north": "side|up" },
+                {
+				"north": "none",
+				"east": "none",
+				"south": "side|up",
+				"west": "none"
+				}
+            ]},
+            "apply": { "model": "redstone_dust/side" }
+        },
+        {   "when": { "OR": [
+                { "south": "side|up" },
+                {
+				"north": "side|up",
+				"east": "none",
+				"south": "none",
+				"west": "none" 
+				}
+            ]},
+            "apply": { "model": "redstone_dust/side_alt" }
+        },
+        {   "when": { "OR": [
+                { "east": "side|up" },
+                {
+				"north": "none",
+				"east": "none",
+				"south": "none",
+				"west": "side|up"
+				}
+            ]},
+            "apply": { "model": "redstone_dust/side_alt", "y": 270 }
+        },
+        {   "when": { "OR": [
+                { "west": "side|up" },
+                {
+				"north": "none",
+				"east": "side|up",
+				"south": "none",
+				"west": "none"
+				}
+            ]},
+            "apply": { "model": "redstone_dust/side", "y": 270 }
+        },
+        {   "when": { "north": "up" },
+            "apply": { "model": "redstone_dust/up" }
+        },
+        {   "when": { "east": "up" },
+            "apply": { "model": "redstone_dust/up", "y": 90 }
+        },
+        {   "when": { "south": "up" },
+            "apply": { "model": "redstone_dust/up", "y": 180 }
+        },
+        {   "when": { "west": "up" },
+            "apply": { "model": "redstone_dust/up", "y": 270 }
+        },
+		{   "when": { "OR": [
+                { "power": "0", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "0", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "0", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "0", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "0", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "0", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "0", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "0", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "0", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "0", "north": "side|up", "east": "side|up" },
+                { "power": "0", "east": "side|up", "south": "side|up" },
+                { "power": "0", "south": "side|up", "west": "side|up" },
+                { "power": "0", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr0" }
+        },
+		{   "when": { "OR": [
+				{ "power": "0", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "0", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "0", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr0" }
+        },
+		{   "when": { "OR": [
+                { "power": "1", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "1", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "1", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "1", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "1", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "1", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "1", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "1", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "1", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "1", "north": "side|up", "east": "side|up" },
+                { "power": "1", "east": "side|up", "south": "side|up" },
+                { "power": "1", "south": "side|up", "west": "side|up" },
+                { "power": "1", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr1" }
+        },
+		{   "when": { "OR": [
+				{ "power": "1", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "1", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "1","north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr1" }
+        },
+		{   "when": { "OR": [
+                { "power": "2", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "2", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "2", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "2", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "2", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "2", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "2", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "2", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "2", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "2", "north": "side|up", "east": "side|up" },
+                { "power": "2", "east": "side|up", "south": "side|up" },
+                { "power": "2", "south": "side|up", "west": "side|up" },
+                { "power": "2", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr2" }
+        },
+		{   "when": { "OR": [
+				{ "power": "2", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "2", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "2", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr2" }
+        },
+		{   "when": { "OR": [
+                { "power": "3", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "3", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "3", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "3", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "3", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "3", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "3", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "3", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "3", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "3", "north": "side|up", "east": "side|up" },
+                { "power": "3", "east": "side|up", "south": "side|up" },
+                { "power": "3", "south": "side|up", "west": "side|up" },
+                { "power": "3", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr3" }
+        },
+		{   "when": { "OR": [
+				{ "power": "3", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "3", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "3", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr3" }
+        },
+		{   "when": { "OR": [
+                { "power": "4", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "4", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "4", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "4", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "4", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "4", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "4", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "4", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "4", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "4", "north": "side|up", "east": "side|up" },
+                { "power": "4", "east": "side|up", "south": "side|up" },
+                { "power": "4", "south": "side|up", "west": "side|up" },
+                { "power": "4", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr4" }
+        },
+		{   "when": { "OR": [
+				{ "power": "4", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "4", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "4", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr4" }
+        },
+		{   "when": { "OR": [
+                { "power": "5", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "5", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "5", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "5", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "5", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "5", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "5", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "5", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "5", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "5", "north": "side|up", "east": "side|up" },
+                { "power": "5", "east": "side|up", "south": "side|up" },
+                { "power": "5", "south": "side|up", "west": "side|up" },
+                { "power": "5", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr5" }
+        },
+		{   "when": { "OR": [
+				{ "power": "5", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "5", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "5", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr5" }
+        },
+		{   "when": { "OR": [
+                { "power": "6", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "6", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "6", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "6", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "6", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "6", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "6", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "6", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "6", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "6", "north": "side|up", "east": "side|up" },
+                { "power": "6", "east": "side|up", "south": "side|up" },
+                { "power": "6", "south": "side|up", "west": "side|up" },
+                { "power": "6", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr6" }
+        },
+		{   "when": { "OR": [
+				{ "power": "6", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "6", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "6", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr6" }
+        },
+		{   "when": { "OR": [
+                { "power": "7", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "7", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "7", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "7", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "7", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "7", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "7", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "7", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "7", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "7", "north": "side|up", "east": "side|up" },
+                { "power": "7", "east": "side|up", "south": "side|up" },
+                { "power": "7", "south": "side|up", "west": "side|up" },
+                { "power": "7", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr7" }
+        },
+		{   "when": { "OR": [
+				{ "power": "7", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "7", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "7", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr7" }
+        },
+		{   "when": { "OR": [
+                { "power": "8", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "8", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "8", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "8", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "8", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "8", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "8", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "8", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "8", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "8", "north": "side|up", "east": "side|up" },
+                { "power": "8", "east": "side|up", "south": "side|up" },
+                { "power": "8", "south": "side|up", "west": "side|up" },
+                { "power": "8", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr8" }
+        },
+		{   "when": { "OR": [
+				{ "power": "8", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "8", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "8", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr8" }
+        },
+		{   "when": { "OR": [
+                { "power": "9", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "9", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "9", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "9", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "9", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "9", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "9", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "9", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "9", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "9", "north": "side|up", "east": "side|up" },
+                { "power": "9", "east": "side|up", "south": "side|up" },
+                { "power": "9", "south": "side|up", "west": "side|up" },
+                { "power": "9", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr9" }
+        },
+		{   "when": { "OR": [
+				{ "power": "9", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "9", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "9", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr9" }
+        },
+		{   "when": { "OR": [
+                { "power": "10", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "10", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "10", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "10", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "10", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "10", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "10", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "10", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "10", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "10", "north": "side|up", "east": "side|up" },
+                { "power": "10", "east": "side|up", "south": "side|up" },
+                { "power": "10", "south": "side|up", "west": "side|up" },
+                { "power": "10", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr10" }
+        },
+		{   "when": { "OR": [
+				{ "power": "10", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "10", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "10", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr10" }
+        },
+		{   "when": { "OR": [
+                { "power": "11", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "11", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "11", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "11", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "11", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "11", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "11", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "11", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "11", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "11", "north": "side|up", "east": "side|up" },
+                { "power": "11", "east": "side|up", "south": "side|up" },
+                { "power": "11", "south": "side|up", "west": "side|up" },
+                { "power": "11", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr11" }
+        },
+		{   "when": { "OR": [
+				{ "power": "11", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "11", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "11", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr11" }
+        },
+		{   "when": { "OR": [
+                { "power": "12", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "12", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "12", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "12", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "12", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "12", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "12", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "12", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "12", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "12", "north": "side|up", "east": "side|up" },
+                { "power": "12", "east": "side|up", "south": "side|up" },
+                { "power": "12", "south": "side|up", "west": "side|up" },
+                { "power": "12", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr12" }
+        },
+		{   "when": { "OR": [
+				{ "power": "12", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "12", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "12", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr12" }
+        },
+		{   "when": { "OR": [
+                { "power": "13", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "13", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "13", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "13", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "13", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "13", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "13", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "13", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "13", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "13", "north": "side|up", "east": "side|up" },
+                { "power": "13", "east": "side|up", "south": "side|up" },
+                { "power": "13", "south": "side|up", "west": "side|up" },
+                { "power": "13", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr13" }
+        },
+		{   "when": { "OR": [
+				{ "power": "13", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "13", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "13", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr13" }
+        },
+		{   "when": { "OR": [
+                { "power": "14", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "14", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "14", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "14", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "14", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "14", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "14", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "14", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "14", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "14", "north": "side|up", "east": "side|up" },
+                { "power": "14", "east": "side|up", "south": "side|up" },
+                { "power": "14", "south": "side|up", "west": "side|up" },
+                { "power": "14", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr14" }
+        },
+		{   "when": { "OR": [
+				{ "power": "14", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "14", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "14", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr14" }
+        },
+		{   "when": { "OR": [
+                { "power": "15", "north": "none", "east": "none", "south": "none", "west": "none" },
+				{ "power": "15", "north": "side|up", "east": "none", "south": "none", "west": "none" },
+				{ "power": "15", "north": "none", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "15", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "15", "north": "side|up", "east": "none", "south": "side|up", "west": "none" },
+				{ "power": "15", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up" },
+				{ "power": "15", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up" },
+				{ "power": "15", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up" },
+				{ "power": "15", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none" },
+				{ "power": "15", "north": "side|up", "east": "side|up" },
+                { "power": "15", "east": "side|up", "south": "side|up" },
+                { "power": "15", "south": "side|up", "west": "side|up" },
+                { "power": "15", "west": "side|up", "north": "side|up" }
+            ]},
+            "apply": { "model": "redstone_dust/facing/north/pwr15" }
+        },
+		{   "when": { "OR": [
+				{ "power": "15", "north": "none", "east": "side|up", "south": "none", "west": "none" },
+				{ "power": "15", "north": "none", "east": "none", "south": "none", "west": "side|up" },
+				{ "power": "15", "north": "none", "east": "side|up", "south": "none", "west": "side|up" }
+			]},
+            "apply": { "model": "redstone_dust/facing/east/pwr15" }
+        }
+
+    ]
+}

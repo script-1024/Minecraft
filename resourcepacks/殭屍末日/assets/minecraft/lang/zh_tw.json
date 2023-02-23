@@ -1,0 +1,18 @@
+{
+    "controls.keybinds": "§e§l按鍵綁定...",
+    "key.advancements": "進度",
+    "key.attack": "§c[禁用] 原版攻擊",
+    "key.drop": "§e裝填彈藥",
+    "key.swapOffhand": "§e攻擊 §f| §b滑鼠只能單發，鍵盤可連發 （遊戲特性）",
+    "key.use": "§e瞄準 §f| §b短按切換，長按保持",
+    "menu.options": "§e§l選項...",
+    "options.controls": "§e§l按鍵設定...",
+    "options.forceUnicodeFont": "強制使用 Unicode 字型",
+    "options.mouse_settings": "滑鼠設定...",
+    "options.mouse_settings.title": "滑鼠設定",
+    "options.rawMouseInput": "原始輸入",
+    "options.title": "選項",
+    "options.touchscreen": "觸控模式",
+    "options.video": "顯示設定...",
+    "options.videoTitle": "顯示設定"
+}

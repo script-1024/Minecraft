@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "minecraft:block/torches/torch/wall"
+    },
+    "facing=north": {
+      "model": "minecraft:block/torches/torch/wall",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "minecraft:block/torches/torch/wall",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "minecraft:block/torches/torch/wall",
+      "y": 180
+    }
+  }
+}

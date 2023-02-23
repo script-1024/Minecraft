@@ -1,0 +1,7 @@
+{
+	"parent": "zb:gui/template",
+	"texture_size": [16, 18],
+	"textures": {
+		"0": "zb:gui/test"
+	}
+}
