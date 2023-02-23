@@ -1,0 +1,1 @@
+scoreboard players set #gravity ys.tag -200

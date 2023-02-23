@@ -12,9 +12,9 @@ scoreboard objectives add entity.pos.x dummy
 scoreboard objectives add entity.pos.y dummy
 scoreboard objectives add entity.pos.z dummy
 
-scoreboard objectives add entity.motion.x dummy
-scoreboard objectives add entity.motion.y dummy
-scoreboard objectives add entity.motion.z dummy
+scoreboard objectives add entity.dx dummy
+scoreboard objectives add entity.dy dummy
+scoreboard objectives add entity.dz dummy
 
 scoreboard objectives add player.uid dummy
 scoreboard objectives add player.select dummy
@@ -29,4 +29,8 @@ scoreboard objectives add player.input.a dummy
 scoreboard objectives add player.input.s dummy
 scoreboard objectives add player.input.d dummy
 
+scoreboard objectives add ys.tag dummy
 scoreboard objectives add const dummy
+
+function ys:define/score
+function ys:entity/player/check
