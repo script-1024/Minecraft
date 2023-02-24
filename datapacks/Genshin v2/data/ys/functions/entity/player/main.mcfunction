@@ -12,5 +12,5 @@ execute on vehicle store result entity @s Motion[0] double 0.012 run scoreboard 
 execute on vehicle store result entity @s Motion[1] double 0.001 run scoreboard players get @p entity.dy
 execute on vehicle store result entity @s Motion[2] double 0.012 run scoreboard players get @p entity.dz
 
-execute store result score @s player.atk on vehicle on passengers run data get entity @s data.current.atk
-execute store result score @s player.def on vehicle on passengers run data get entity @s data.current.def
+execute store result score @s player.atk on vehicle on passengers run data get entity @s data.current.character.atk
+execute store result score @s player.def on vehicle on passengers run data get entity @s data.current.character.def

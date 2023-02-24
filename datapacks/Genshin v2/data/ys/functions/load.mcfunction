@@ -29,6 +29,14 @@ scoreboard objectives add player.input.a dummy
 scoreboard objectives add player.input.s dummy
 scoreboard objectives add player.input.d dummy
 
+scoreboard objectives add element.pyro dummy
+scoreboard objectives add element.hydro dummy
+scoreboard objectives add element.anemo dummy
+scoreboard objectives add element.electro dummy
+scoreboard objectives add element.dendro dummy
+scoreboard objectives add element.cryo dummy
+scoreboard objectives add element.geo dummy
+
 scoreboard objectives add ys.tag dummy
 scoreboard objectives add const dummy
 
