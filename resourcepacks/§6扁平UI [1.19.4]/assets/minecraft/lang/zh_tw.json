@@ -5,5 +5,19 @@
     "element.electro": "\uef23",
     "element.dendro": "\uef24",
     "element.cryo": "\uef25",
-    "element.geo": "\uef26"
+    "element.geo": "\uef26",
+    "death.attack.pyro": "%1$s 被過量火元素殺死了",
+    "death.attack.pyro.player": "%1$s 被 %2$s 用火元素力殺死了",
+    "death.attack.hydro": "%1$s 被過量水元素殺死了",
+    "death.attack.hydro.player": "%1$s 被 %2$s 用水元素力殺死了",
+    "death.attack.anemo": "%1$s 被過量風元素殺死了",
+    "death.attack.anemo.player": "%1$s 被 %2$s 用風元素力殺死了",
+    "death.attack.electro": "%1$s 被過量雷元素殺死了",
+    "death.attack.electro.player": "%1$s 被 %2$s 用雷元素力殺死了",
+    "death.attack.dendro": "%1$s 被過量草元素殺死了",
+    "death.attack.dendro.player": "%1$s 被 %2$s 用草元素力殺死了",
+    "death.attack.cryo": "%1$s 被過量冰元素殺死了",
+    "death.attack.cryo.player": "%1$s 被 %2$s 用冰元素力殺死了",
+    "death.attack.geo": "%1$s 被過量岩元素殺死了",
+    "death.attack.geo.player": "%1$s 被 %2$s 用岩元素力殺死了"
 }

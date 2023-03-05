@@ -25,6 +25,7 @@ scoreboard objectives add element.electro dummy
 scoreboard objectives add element.dendro dummy
 scoreboard objectives add element.cryo dummy
 scoreboard objectives add element.geo dummy
+scoreboard objectives add element.state dummy
 
 scoreboard objectives add timer.freeze dummy
 
