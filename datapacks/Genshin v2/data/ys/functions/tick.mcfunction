@@ -1,1 +1,1 @@
-execute as @e at @s rotated as @s run function ys:entity/main
+execute as @e at @s run function ys:entity/main

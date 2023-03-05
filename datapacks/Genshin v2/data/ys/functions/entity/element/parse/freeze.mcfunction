@@ -1,1 +1,1 @@
-tag @s add freeze
+tag @s add el.frz
