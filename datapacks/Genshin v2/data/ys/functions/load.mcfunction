@@ -26,14 +26,8 @@ scoreboard objectives add element.dendro dummy
 scoreboard objectives add element.cryo dummy
 scoreboard objectives add element.geo dummy
 
-<<<<<<< HEAD
-scoreboard objectives add timer.attach dummy
-
-=======
-#> elemental reaction
 scoreboard objectives add timer.freeze dummy
 
->>>>>>> 2e26b4da5d79979feaf7ce8decb6cabc8cfe4edf
 scoreboard objectives add ys.tag dummy
 scoreboard objectives add const dummy
 
