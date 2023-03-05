@@ -15,8 +15,8 @@ scoreboard objectives add player.sneak dummy
 scoreboard objectives add player.atk dummy
 scoreboard objectives add player.def dummy
 
-scoreboard objectives add player.input.atk dummy
-scoreboard objectives add player.input.use dummy
+#scoreboard objectives add player.input.atk dummy
+#scoreboard objectives add player.input.use dummy
 
 scoreboard objectives add element.pyro dummy
 scoreboard objectives add element.hydro dummy

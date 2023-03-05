@@ -1,1 +1,1 @@
-execute as @e at @s rotated as @s run function dd:entity/main
+execute as @e at @s run function dd:entity/main
