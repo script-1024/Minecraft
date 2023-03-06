@@ -1,0 +1,1 @@
+execute as @e at @s run function ys:entity/main

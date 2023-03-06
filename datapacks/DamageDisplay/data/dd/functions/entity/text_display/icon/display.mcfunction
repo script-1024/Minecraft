@@ -1,2 +1,0 @@
-execute if score @s entity.state.wet matches 1 on passengers run data modify entity @s text set value '{"translate":"element.hydro"}'
-execute if score @s entity.state.wet matches 0 on passengers run data modify entity @s text set value ''
