@@ -5,8 +5,8 @@ execute on passengers run data modify entity @s interpolation_start set value -1
 
 execute unless score @s element.state matches 1.. run scoreboard players set @s element.state 1
 
-execute if score @s element.state matches 1 if score @s counter.attach matches 0 run scoreboard players set @s element.pyro 95
-execute unless score @s element.state matches 1 run scoreboard players set @s element.pyro 95
+execute if score @s element.state matches 1 if score @s counter.attach matches 0 run scoreboard players set @s element.pyro 120
+execute unless score @s element.state matches 1 run scoreboard players set @s element.pyro 120
 
 execute if score @s counter.attach matches 0 run scoreboard players set @s timer.attach 25
 

@@ -12,8 +12,8 @@ execute if score @s element.cryo matches 1.. run particle snowflake ~ ~1 ~ 0.3 0
 
 #> 冻结 66 Frozen
 #  冰+水
-execute if entity @s[tag=!el.frz] if score @s element.cryo matches 1.. if score @s element.hydro matches 1.. run function ys:entity/element/parse/freeze
-execute if entity @s[tag=el.frz] run function ys:entity/element/freeze
+#execute if entity @s[tag=!el.frz] if score @s element.cryo matches 1.. if score @s element.hydro matches 1.. run function ys:entity/element/parse/frozen
+#execute if entity @s[tag=el.frz] run function ys:entity/element/frozen
 
 #> 超载 16 Overloaded
 #  雷+火

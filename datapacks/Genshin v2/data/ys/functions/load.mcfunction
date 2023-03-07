@@ -27,9 +27,12 @@ scoreboard objectives add element.cryo dummy
 scoreboard objectives add element.geo dummy
 scoreboard objectives add element.state dummy
 
-scoreboard objectives add timer.freeze dummy
+#> 状态计时器
+scoreboard objectives add timer.frozen dummy
 scoreboard objectives add timer.melt dummy
 
+#> 计时计数器
+scoreboard objectives add timer.attach dummy
 scoreboard objectives add counter.attach dummy
 
 scoreboard objectives add ys.tag dummy
