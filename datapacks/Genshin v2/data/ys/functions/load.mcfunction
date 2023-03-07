@@ -28,6 +28,9 @@ scoreboard objectives add element.geo dummy
 scoreboard objectives add element.state dummy
 
 scoreboard objectives add timer.freeze dummy
+scoreboard objectives add timer.melt dummy
+
+scoreboard objectives add counter.attach dummy
 
 scoreboard objectives add ys.tag dummy
 scoreboard objectives add const dummy
