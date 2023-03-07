@@ -1,1 +1,0 @@
-execute if entity @s[type=!player] run function ys:entity/element/icon/non-player/main

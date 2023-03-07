@@ -1,4 +1,4 @@
 schedule function dd:timer 1t
 
-scoreboard players add @e[tag=!x,scores={dd.timer=0..}] dd.timer 5
-scoreboard players remove @e[tag=x] dd.timer 2
+execute as @e[tag=!x,scores={dd.timer=0..}] run scoreboard players add @s dd.timer 5
+execute as @e[tag=x] run scoreboard players remove @s dd.timer 2

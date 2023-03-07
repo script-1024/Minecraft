@@ -2,11 +2,7 @@ scoreboard objectives add entity.health.current dummy
 scoreboard objectives add entity.health.prev dummy
 scoreboard objectives add entity.health.diff dummy
 
-#> transformation
-scoreboard objectives add entity.tf.scale dummy
-scoreboard objectives add entity.tf.x dummy
-scoreboard objectives add entity.tf.y dummy
-scoreboard objectives add entity.tf.z dummy
+scoreboard objectives add entity.damage dummy
 
 scoreboard objectives add player.p dummy
 scoreboard objectives add player.uid dummy
