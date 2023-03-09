@@ -5,3 +5,10 @@ tp @e[tag=data,limit=1,sort=nearest] @s
 execute store result score @s player.atk run data get entity @e[tag=data,limit=1,sort=nearest] data.current.character.atk
 execute store result score @s player.def run data get entity @e[tag=data,limit=1,sort=nearest] data.current.character.def
 scoreboard players operation @s entity.atk = @s player.atk
+
+#> 武器类型
+#  弓 Bow
+#  法器 Catalyst
+#  单手剑 Sword
+#  双手剑 Claymore
+#  长柄武器 Polearm

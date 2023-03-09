@@ -1,6 +1,7 @@
 scoreboard objectives add entity.health.current dummy
 scoreboard objectives add entity.health.prev dummy
 scoreboard objectives add entity.health.diff dummy
+scoreboard objectives add entity.damage dummy
 
 scoreboard objectives add entity.tf.scale dummy
 scoreboard objectives add entity.tf.scale.prev dummy

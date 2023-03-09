@@ -1,8 +1,8 @@
 scoreboard objectives add entity.health.current dummy
 scoreboard objectives add entity.health.prev dummy
 scoreboard objectives add entity.health.diff dummy
-scoreboard objectives add entity.atk dummy
 scoreboard objectives add entity.damage dummy
+scoreboard objectives add entity.atk dummy
 
 scoreboard objectives add player.p dummy
 scoreboard objectives add player.uid dummy
@@ -11,7 +11,7 @@ scoreboard objectives add player.sneak dummy
 scoreboard objectives add player.atk dummy
 scoreboard objectives add player.def dummy
 
-#scoreboard objectives add player.input.atk dummy
+scoreboard objectives add player.cd.atk dummy
 #scoreboard objectives add player.input.use dummy
 
 scoreboard objectives add element.pyro dummy
@@ -24,6 +24,7 @@ scoreboard objectives add element.geo dummy
 scoreboard objectives add element.state dummy
 
 #> 状态计时器
+scoreboard objectives add timer.icon dummy
 scoreboard objectives add timer.frozen dummy
 scoreboard objectives add timer.burning dummy
 
