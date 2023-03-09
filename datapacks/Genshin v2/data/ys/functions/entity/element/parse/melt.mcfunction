@@ -1,6 +1,6 @@
 #> 融化 64
 
-execute if score @s element.state matches 66 run scoreboard players set @s timer.frozen 0
+execute if score @s element.state matches 66 run scoreboard players set @e[scores={timer.frozen=1..},distance=..2] timer.frozen 0
 execute anchored eyes positioned ^ ^-0.3 ^ summon text_display run function ys:entity/element/show/melt
 
 execute store result score @s entity.damage on attacker run scoreboard players get @s entity.atk
