@@ -1,7 +1,7 @@
 scoreboard objectives add entity.health.current dummy
 scoreboard objectives add entity.health.prev dummy
 scoreboard objectives add entity.health.diff dummy
-
+scoreboard objectives add entity.atk dummy
 scoreboard objectives add entity.damage dummy
 
 scoreboard objectives add player.p dummy
@@ -25,14 +25,14 @@ scoreboard objectives add element.state dummy
 
 #> 状态计时器
 scoreboard objectives add timer.frozen dummy
-scoreboard objectives add timer.melt dummy
+scoreboard objectives add timer.burning dummy
 
 #> 计时计数器
 scoreboard objectives add timer.attach dummy
 scoreboard objectives add counter.attach dummy
 
-scoreboard objectives add ys.tag dummy
 scoreboard objectives add const dummy
+scoreboard objectives add tag dummy
 
 function ys:define/score
 function ys:timer

@@ -8,6 +8,7 @@ scoreboard objectives add entity.tf.x dummy
 scoreboard objectives add entity.tf.y dummy
 scoreboard objectives add entity.tf.z dummy
 
+scoreboard objectives add dd.element dummy
 scoreboard objectives add dd.timer dummy
 scoreboard objectives add dd.rng dummy
 scoreboard objectives add const dummy
