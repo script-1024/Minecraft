@@ -1,4 +1,4 @@
-schedule function ys:timer 0.1s
+timer.auratimer.auraschedule function ys:timer 0.1s
 
 execute as @e[scores={element.anemo=1..}] run scoreboard players remove @s element.anemo 1
 execute as @e[scores={element.cryo=1..}] run scoreboard players remove @s element.cryo 1

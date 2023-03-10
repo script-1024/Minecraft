@@ -29,8 +29,8 @@ scoreboard objectives add timer.frozen dummy
 scoreboard objectives add timer.burning dummy
 
 #> 计时计数器
-scoreboard objectives add timer.attach dummy
-scoreboard objectives add counter.attach dummy
+scoreboard objectives add timer.aura dummy
+scoreboard objectives add counter.aura dummy
 
 scoreboard objectives add const dummy
 scoreboard objectives add tag dummy
