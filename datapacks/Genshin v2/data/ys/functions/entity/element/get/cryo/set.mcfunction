@@ -9,6 +9,7 @@ execute if score @s element.state matches 3 on passengers run data modify entity
 execute if score @s element.state matches 15 on passengers run data modify entity @s text set value '[{"translate":"element.electro"},{"translate":"element.cryo"}]'
 execute if score @s element.state matches 63 on passengers run data modify entity @s text set value '[{"translate":"element.cryo"}]'
 
+scoreboard players set @s dd.element 6
 execute if score @s element.state matches 63 store result score @s entity.damage on attacker run scoreboard players get @s entity.atk
 execute if score @s element.state matches 63 run function ys:entity/damage
 
