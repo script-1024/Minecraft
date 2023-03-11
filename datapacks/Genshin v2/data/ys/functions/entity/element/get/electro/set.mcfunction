@@ -6,11 +6,11 @@ scoreboard players add @s counter.aura 1
 
 execute if score @s element.state matches 1 on passengers run data modify entity @s text set value '[{"translate":"element.pyro"},{"translate":"element.electro"}]'
 execute if score @s element.state matches 3 on passengers run data modify entity @s text set value '[{"translate":"element.hydro"},{"translate":"element.electro"}]'
-execute if score @s element.state matches 15 on passengers run data modifyentity @s text set value '[{"translate":"element.electro"}]'
+execute if score @s element.state matches 15 on passengers run data modify entity @s text set value '[{"translate":"element.electro"}]'
 execute if score @s element.state matches 63 on passengers run data modify entity @s text set value '[{"translate":"element.cryo"},{"translate":"element.electro"}]'
 execute if score @s element.state matches 66 on passengers run data modify entity @s text set value '[{"translate":"element.cryo"},{"translate":"element.electro"}]'
 
-scoreboard  players set @s dd.element 4
+scoreboard players set @s dd.element 4
 execute if score @s element.state matches 15 store result score @s entity.damage on attacker run scoreboard players get @s entity.atk
 execute if score @s element.state matches 15 run function ys:entity/damage
 

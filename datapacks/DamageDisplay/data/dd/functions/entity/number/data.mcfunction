@@ -20,5 +20,6 @@ execute unless score @s dd.timer matches 0.. run scoreboard players set @s dd.ti
 
 function dd:entity/transformation/translate
 
+execute if score @e[limit=1,sort=nearest,tag=e] player.isCrit matches 1 run tag @s add crit
 execute as @e[limit=1,sort=nearest,tag=e] if entity @s[tag=txt,tag=icon] run kill @s
 tag @e[limit=1,sort=nearest,tag=e] remove e

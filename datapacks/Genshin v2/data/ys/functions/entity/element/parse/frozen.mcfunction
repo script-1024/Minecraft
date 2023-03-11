@@ -11,6 +11,7 @@ execute positioned ~-0.5 ~1 ~-0.5 summon block_display run data merge entity @s 
 ride @s mount @e[tag=v,limit=1,sort=nearest]
 scoreboard players set @s timer.frozen 30
 execute as @e[tag=ice,distance=..2] unless score @s timer.frozen matches 0.. run scoreboard players set @s timer.frozen 30
+execute as @e[tag=ice,distance=..2] unless score @s element.state matches 66 run scoreboard players set @s element.state 66
 effect give @s slowness infinite 6 true
 
 execute store result score @s entity.damage on attacker run scoreboard players get @s entity.atk

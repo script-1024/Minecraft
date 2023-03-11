@@ -10,6 +10,8 @@ execute if score @s element.state matches 1 run scoreboard players operation @s 
 
 scoreboard players operation @s entity.damage /= #10 const
 
+# 增幅反应
+function ys:entity/set/amplified
 function ys:entity/damage
 
 scoreboard players set @s element.state 0

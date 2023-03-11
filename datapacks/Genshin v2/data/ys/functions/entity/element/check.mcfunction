@@ -16,6 +16,7 @@ execute if entity @s[tag=el.frz] run function ys:entity/element/state/frozen
 
 #> 超载 16 Overloaded
 #  雷+火
+execute if entity @s[tag=el.ovl] run function ys:entity/element/state/overloaded
 
 #> 超导 78 Superconduct
 #  雷+冰
