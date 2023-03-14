@@ -1,5 +1,11 @@
 #> 蒸发 04
 
+# 火被水克制
+scoreboard players operation @s element.pyro /= #2 const
+scoreboard players operation @s element.hydro -= @s element.pyro
+scoreboard players set @s element.pyro 0
+execute unless score @s element.state matches 3 run scoreboard players set @s element.hydro 0
+
 execute if score @s element.state matches 32 run scoreboard players set @s timer.burning 0
 execute anchored eyes positioned ^ ^-0.3 ^ summon text_display run function ys:entity/element/show/vaporize
 

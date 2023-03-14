@@ -56,4 +56,5 @@ scoreboard objectives add const dummy
 scoreboard objectives add tag dummy
 
 function ys:define/score
+function ys:timer/element
 function ys:timer/poi
