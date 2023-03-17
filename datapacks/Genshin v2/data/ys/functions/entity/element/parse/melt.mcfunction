@@ -21,4 +21,5 @@ scoreboard players operation @s entity.damage /= #10 const
 function ys:entity/set/amplified
 function ys:entity/damage
 
-scoreboard players set @s element.state 0
+execute if score @s element.pyro matches 1.. run scoreboard players set @s element.state 1
+execute unless score @s element.pyro matches 1.. run scoreboard players set @s element.state 0

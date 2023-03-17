@@ -41,6 +41,7 @@ scoreboard objectives add element.cryo dummy
 scoreboard objectives add element.geo dummy
 scoreboard objectives add element.state dummy
 scoreboard objectives add element.decay dummy
+scoreboard objectives add element.frozen dummy
 
 #> 状态计时器
 scoreboard objectives add timer.icon dummy

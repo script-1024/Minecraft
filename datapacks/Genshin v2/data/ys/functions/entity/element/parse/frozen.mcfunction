@@ -2,7 +2,7 @@
 #  弱3s | 強5s
 
 scoreboard players set @s timer.frozen 0
-function ys:entity/element/parse/quant/frozen
+function ys:entity/element/parse/quant/frozen-1
 
 scoreboard players set @s element.state 66
 execute anchored eyes positioned ^ ^-0.3 ^ summon text_display run function ys:entity/element/show/frozen
