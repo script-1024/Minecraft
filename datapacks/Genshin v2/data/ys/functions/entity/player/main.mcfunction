@@ -5,6 +5,7 @@ scoreboard players operation @s player.multiplier = @s player.mp.atk
 scoreboard players operation @s entity.atk = @s player.atk
 
 execute store result score @s player.select run data get entity @s SelectedItemSlot
+execute positioned ~ ~2 ~ if entity @s[dy=-0.3] run scoreboard players set @s player.sneak 0
 #execute as @e[tag=data,limit=1,sort=nearest] at @s if score @p player.select matches 0..3 unless score @p player.p = @p player.select run function ys:entity/player/switch_character
 
 effect give @s saturation infinite 0 true

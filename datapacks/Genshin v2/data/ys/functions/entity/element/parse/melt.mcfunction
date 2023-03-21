@@ -1,7 +1,7 @@
 #> 融化 64
 
 # 冰被火克制
-scoreboard players operation @s element.pcryo /= #2 const
+scoreboard players operation @s element.cryo /= #2 const
 scoreboard players operation @s element.pyro -= @s element.cryo
 scoreboard players set @s element.cryo 0
 execute unless score @s element.state matches 1 run scoreboard players set @s element.pyro 0

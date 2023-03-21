@@ -13,7 +13,7 @@ scoreboard objectives add entity.rx dummy
 scoreboard objectives add player.p dummy
 scoreboard objectives add player.uid dummy
 scoreboard objectives add player.select dummy
-scoreboard objectives add player.sneak dummy
+scoreboard objectives add player.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add player.damage minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add player.atk dummy
 scoreboard objectives add player.def dummy
@@ -56,6 +56,14 @@ scoreboard objectives add ys.tmp dummy
 scoreboard objectives add const dummy
 scoreboard objectives add tag dummy
 
+function ys:entity/element/reset
 function ys:define/score
-function ys:timer/element
-function ys:timer/poi
+function ys:timer
+
+tellraw @a "§b[#] §e系統載入完成"
+
+#> 系统通知样式规范
+## [+] §a 新增 / 正面
+## [-] §c 移除 / 负面
+## [#] §b 信息 / 普通
+## [?] §f 未知
