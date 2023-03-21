@@ -1,2 +1,4 @@
 scoreboard players add @s timer.frozen 10
-scoreboard players remove
+scoreboard players remove @s element.frozen 800
+
+execute if score @s element.frozen matches 1.. run function ys:entity/element/parse/quant/frozen-2
