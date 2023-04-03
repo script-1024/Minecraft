@@ -3,8 +3,9 @@ execute if entity @s[tag=txt] unless score @s entity.tf.scale = @s entity.tf.sca
 
 execute if score @s dd.timer matches ..-15 run kill @s
 
-execute if entity @s[tag=d] if score @s dd.timer matches 20.. run tag @s add x
+execute if entity @s[tag=d,tag=!crit] if score @s dd.timer matches 20.. run tag @s add x
+execute if entity @s[tag=d,tag=crit] if score @s dd.timer matches 50.. run tag @s add x
 
 execute if entity @s[tag=d,tag=!x] run scoreboard players operation @s entity.tf.scale = @s dd.timer
-execute if entity @s[tag=num,tag=x] if score @s dd.timer matches 10.. run scoreboard players operation @s entity.tf.scale = @s dd.timer
-execute if entity @s[tag=efc,tag=x] if score @s dd.timer matches 10.. run scoreboard players operation @s entity.tf.scale = @s dd.timer
+execute if entity @s[tag=x,tag=!crit] if score @s dd.timer matches 10.. run scoreboard players operation @s entity.tf.scale = @s dd.timer
+execute if entity @s[tag=x,tag=crit] if score @s dd.timer matches 35.. run scoreboard players operation @s entity.tf.scale = @s dd.timer

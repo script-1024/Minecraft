@@ -1,4 +1,5 @@
-execute store result score @s entity.health.current run data get entity @s Health 1
+execute if entity @s[type=!player] if score #dd-GetEntityHealth tag matches 1 store result score @s entity.health.current run data get entity @s Health 1
+execute if entity @s[type=player] if score #dd-GetPlayerHealth tag matches 1 store result score @s entity.health.current run data get entity @s Health 1
 
 execute unless score @s entity.health.prev matches 0.. run scoreboard players operation @s entity.health.prev = @s entity.health.current
 
