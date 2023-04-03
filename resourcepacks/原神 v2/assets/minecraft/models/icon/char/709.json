@@ -1,0 +1,6 @@
+{
+    "parent": "icon/template",
+    "textures": {
+        "layer0": "icon/char/709"
+    }
+}
