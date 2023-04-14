@@ -1,7 +1,7 @@
-execute if score @p player.p matches 1 run data modify entity @s data.current set from entity @s data.store[{p:1}]
-execute if score @p player.p matches 2 run data modify entity @s data.current set from entity @s data.store[{p:2}]
-execute if score @p player.p matches 3 run data modify entity @s data.current set from entity @s data.store[{p:3}]
-execute if score @p player.p matches 4 run data modify entity @s data.current set from entity @s data.store[{p:4}]
+execute if score @p player.p matches 1 run data modify entity @s data.current set from entity @s data.party[{p:1}]
+execute if score @p player.p matches 2 run data modify entity @s data.current set from entity @s data.party[{p:2}]
+execute if score @p player.p matches 3 run data modify entity @s data.current set from entity @s data.party[{p:3}]
+execute if score @p player.p matches 4 run data modify entity @s data.current set from entity @s data.party[{p:4}]
 
 execute store result score @p entity.health.current run data get entity @s data.current.character.health 1
 execute store result score @p entity.health.max run data get entity @s data.current.character.max_health 1
