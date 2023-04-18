@@ -28,6 +28,7 @@ scoreboard players set #o const 64
 scoreboard players set #seed dd.rng 0
 
 #> tag
+execute unless score #dd-IgnoreVanilla tag matches 0..1 run scoreboard players set #dd-IgnoreVanilla tag 0
 execute unless score #dd-GetEntityHealth tag matches 0..1 run scoreboard players set #dd-GetEntityHealth tag 1
 execute unless score #dd-GetPlayerHealth tag matches 0..1 run scoreboard players set #dd-GetPlayerHealth tag 1
 
