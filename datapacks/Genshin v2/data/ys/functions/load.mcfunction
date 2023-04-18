@@ -4,6 +4,15 @@ scoreboard objectives add entity.health.diff dummy
 scoreboard objectives add entity.health.max dummy
 
 scoreboard objectives add entity.res dummy
+scoreboard objectives add entity.res.phys dummy
+scoreboard objectives add entity.res.pyro dummy
+scoreboard objectives add entity.res.hydro dummy
+scoreboard objectives sdd entity.res.anemo dummy
+scoreboard objectives sdd entity.res.electro dummy
+scoreboard objectives add entity.res.dendro dummy
+scoreboard objectives add entity.res.cryo dummy
+scoreboard objectives add entity.res.geo
+
 scoreboard objectives add entity.damage dummy
 scoreboard objectives add entity.atk dummy
 scoreboard objectives add entity.def dummy
@@ -47,6 +56,7 @@ scoreboard objectives add element.frozen dummy
 scoreboard objectives add timer.icon dummy
 scoreboard objectives add timer.frozen dummy
 scoreboard objectives add timer.burning dummy
+scoreboard objectives add timer.superconduct dummy
 
 #> 计时计数器
 scoreboard objectives add timer.aura dummy

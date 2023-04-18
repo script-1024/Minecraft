@@ -1,3 +1,4 @@
+#>週期0.1s
 schedule function ys:timer 2t
 
 execute as @e[scores={timer.aura=1..}] run scoreboard players remove @s timer.aura 1
@@ -6,6 +7,8 @@ execute as @e[scores={timer.aura=..0}] run scoreboard players set @s counter.aur
 execute as @e[scores={timer.icon=0..}] run scoreboard players remove @s timer.icon 1
 execute as @e[scores={timer.frozen=1..}] run scoreboard players remove @s timer.frozen 1
 execute as @e[scores={timer.burning=1..}] run scoreboard players remove @s timer.burning 1
+execute as @e[scores={timer.superconduct=1..}] run scoreboard players remove @s timer.superconduct 1
+execute as @e[scores={timer.superconduct=0}] run function ys:entity/state/superconduct
 
 execute as @e[tag=icon,tag=dp,scores={entity.tf.scale=6..}] run scoreboard players remove @s entity.tf.scale 1
 execute as @e[tag=icon,tag=dp,scores={entity.tf.scale=..5}] run tag @s remove dp
