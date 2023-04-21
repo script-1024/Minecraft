@@ -22,6 +22,7 @@ scoreboard objectives add entity.rx dummy
 scoreboard objectives add player.p dummy
 scoreboard objectives add player.uid dummy
 scoreboard objectives add player.select dummy
+scoreboard objectives add player.select.prev dummy
 scoreboard objectives add player.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add player.damage minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add player.atk dummy
@@ -39,6 +40,8 @@ scoreboard objectives add player.mp.skill dummy
 scoreboard objectives add player.mp.burst dummy
 
 scoreboard objectives add player.cd.atk dummy
+
+scoreboard objectives add player.input.scroll dummy
 #scoreboard objectives add player.input.use dummy
 
 scoreboard objectives add element.pyro dummy
