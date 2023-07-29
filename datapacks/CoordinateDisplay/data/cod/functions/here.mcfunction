@@ -1,4 +1,5 @@
 scoreboard players set @s here 0
+effect give @s glowing 60 0 true
 tellraw @a "\n"
 tellraw @s "\u00a7e=============="
 tellraw @a ["\u00a7e玩家: ",{"selector":"@s"}]

@@ -6,10 +6,6 @@
                 " ": 4
             }
         },
-        {
-            "type": "legacy_unicode",
-            "sizes": "font/glyph_sizes.bin",
-            "template": "font/unicode_page/%s.png"
-        }
+        {"type": "ttf","file": "font.ttf","shift": [0,1], "size": 10, "oversample": 4}
     ]
 }
